@@ -16,14 +16,12 @@
 <h1>Please enter the following details</h1>
 <h3>Form</h3>
     <br><br>
-    <form method="post" action="login.php">
-        <label>Username:</label><br>
-        <input type="text" name="username" placeholder="username" /><br><br>
-        <label>Password:</label><br>
-        <input type="password" name="password" placeholder="password" /><br><br>
-        <input type="submit" name="submit" value="login" />
+    <form method="post" action="input.php">
+        <label>Current Gear:</label><br>
+        <input type="text" name="gear" placeholder="Current Gear" /><br><br>
+        <label>Wear Points:</label><br>
+        <input type="text" name="WP" placeholder="Wear Points" /><br><br>
+        <input type="submit" name="submit" value="Proceed" />
     </form>
-
-</div>
 </body>
 </html>
