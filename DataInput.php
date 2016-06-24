@@ -14,7 +14,7 @@
 </head>
 <body>
 <h2>Please enter the following details:</h2>
-    <br><br>
+    <br>
     <form method="post" action="input.php">
         <label>Current Gear:</label><br>
         <input type="text" name="gear" placeholder="Current Gear" /><br><br>
