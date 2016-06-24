@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 <body>
-<h1>Please enter the following details</h1>
+<h1>Please enter the following details:</h1>
 <h3>Form</h3>
     <br><br>
     <form method="post" action="input.php">
