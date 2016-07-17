@@ -15,12 +15,17 @@
 <body>
 <h2>Please enter the following details:</h2>
 <br>
-<form method="post" action="DataInput.php">
-    <label>Current Gear:</label><br>
-    <input type="text" name="gear" placeholder="Current Gear" /><br><br>
-    <label>Wear Points:</label><br>
-    <input type="text" name="WP" placeholder="Wear Points" /><br><br>
-    <input type="submit" name="submit" value="Proceed" />
+
+<p>Click on the corresponding block to enter the data</p>
+
+<img src="planets.gif" width="145" height="126" alt="Planets" usemap="#planetmap">
+
+<map name="planetmap">
+    <area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.htm">
+    <area shape="circle" coords="90,58,3" alt="Mercury" href="mercur.htm">
+    <area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm">
+</map>
+
 </form>
 </body>
 </html>
