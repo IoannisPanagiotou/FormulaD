@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 <body>
-<h2>Click on the corresponding block to enter the data!</h2>
+<h2>Click on the corresponding block to enter the data</h2>
 <br>
 
 <img src="Screen1.png" width="839" height="531" alt="Circuit" usemap="#planetmap">
