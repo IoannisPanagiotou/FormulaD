@@ -16,7 +16,7 @@
 <h2>Click on the corresponding block to enter the data!</h2>
 <br>
 
-<img src="planets.gif" width="145" height="126" alt="Planets" usemap="#planetmap">
+<img src="Screen%201.PNG" width="145" height="126" alt="Planets" usemap="#planetmap">
 
 <map name="planetmap">
     <area shape="rect" coords="0,0,82,126" alt="Sun" href="DataInput.php">
