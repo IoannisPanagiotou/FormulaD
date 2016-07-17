@@ -24,6 +24,8 @@
     <area shape="circle" coords="124,58,8" alt="Venus" href="DataInput.php">
 </map>
 
-
+<footer>
+    <p>(c) 2016 Yannis Panagiotou</p>
+</footer>
 </body>
 </html>
