@@ -25,6 +25,6 @@
     <area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm">
 </map>
 
-</form>
+
 </body>
 </html>
