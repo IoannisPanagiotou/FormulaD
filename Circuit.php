@@ -13,9 +13,8 @@
     <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 <body>
-<h2>Click on the corresponding block to enter the data</h2>
+<h2>Click on the corresponding block to enter the data!</h2>
 <br>
-
 
 <img src="planets.gif" width="145" height="126" alt="Planets" usemap="#planetmap">
 
