@@ -23,7 +23,7 @@
     <area shape="circle" coords="90,58,3" alt="Mercury" href="DataInput.php">
     <area shape="circle" coords="124,58,8" alt="Venus" href="DataInput.php">
     <area shape="poly" coords="271,177,267,185,282,191,284,184" alt="Block"
-          onmouseover="writeText('The Sun and the gas giant planets like Jupiter are by far the largest objects in our Solar System.')"
+          onmouseover="writeText('The Sun and the gas giant planets like Jupiter are by far.')"
           target ="_blank" href="DataInput.php">
 </map>
 
