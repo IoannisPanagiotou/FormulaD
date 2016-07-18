@@ -11,6 +11,11 @@
     <meta charset="utf-8">
     <title>Circuit</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <script>
+        function writeText(txt) {
+            document.getElementById("desc").innerHTML = txt;
+        }
+    </script>
 </head>
 <body>
 <h2>Click on the corresponding block to enter the data</h2>
