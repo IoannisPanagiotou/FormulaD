@@ -22,8 +22,21 @@
     <area shape="rect" coords="0,0,82,126" alt="Sun" href="DataInput.php">
     <area shape="circle" coords="90,58,3" alt="Mercury" href="DataInput.php">
     <area shape="circle" coords="124,58,8" alt="Venus" href="DataInput.php">
-    <area shape="poly" coords="271,177,267,185,282,191,284,184" alt="Block" href="DataInput.php">
+    <area onmouseover="bigImg(this)" onmouseout="normalImg(this)" shape="poly" coords="271,177,267,185,282,191,284,184" alt="Block" href="DataInput.php">
 </map>
+
+<script>
+    function bigImg(x) {
+        x.style.height = "64px";
+        x.style.width = "64px";
+    }
+
+    function normalImg(x) {
+        x.style.height = "32px";
+        x.style.width = "32px";
+    }
+</script>
+
 
 <footer>
     <p>(c) 2016 Yannis Panagiotou</p>
