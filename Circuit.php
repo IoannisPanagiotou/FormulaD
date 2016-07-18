@@ -11,6 +11,11 @@
     <meta charset="utf-8">
     <title>Circuit</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <style>
+        area:hover {
+            background-color: yellow;
+        }
+    </style>
 </head>
 <body>
 <h2>Click on the corresponding block to enter the data</h2>
