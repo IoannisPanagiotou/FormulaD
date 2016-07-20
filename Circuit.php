@@ -11,13 +11,31 @@
     <meta charset="utf-8">
     <title>Circuit</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="unsemantic-grid-responsive-tablet.css">
+    <meta
+        name="viewport"
+        content="
+      width=device-width,
+      initial-scale=1,
+      minimum-scale=1,
+      maximum-scale=1"
+    />
     <script>
         function writeText(txt) {
             document.getElementById("desc").innerHTML = txt;
         }
     </script>
 </head>
+
 <body>
+
+<main class="grid-container">
+
+    <section class="
+grid-33 tablet-grid-50
+mobile-grid-100
+" id="cont1">
+
 <h2>Click on the corresponding block to enter the data</h2>
 <br>
 
@@ -35,5 +53,9 @@
 <footer>
     <p>(c) 2016 Yannis Panagiotou</p>
 </footer>
+
+
+    </section>
+
 </body>
 </html>
