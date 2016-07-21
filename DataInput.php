@@ -36,7 +36,7 @@ include("dbconnect.php");
 elseif($_SERVER['REQUEST_METHOD'] === 'POST'){
     $gear = $_POST["gear"];
     $dice = $_POST["gear"];
-    $corner = $_POST["gear"];
+    $corner;
     $WP = $_POST["WP"];
 
     $sql = "INSERT INTO Results (Gear, Dice, Corner, WearPoints) VALUES ('$gear','$dice','$corner','$WP')";
