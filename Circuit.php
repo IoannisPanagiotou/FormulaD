@@ -32,8 +32,6 @@ include("dbconnect.php");
 
 <main class="grid-container">
 
-<!--    <section class="grid-33 tablet-grid-50 mobile-grid-100" id="cont1">-->
-
 <img id="circuit" src="Screen 1.png" width="839" height="531" alt="Circuit" usemap="#circuitmap">
 
 <map name="circuitmap">
@@ -48,9 +46,6 @@ include("dbconnect.php");
 <footer>
     <p>(c) 2016 Yannis Panagiotou</p>
 </footer>
-
-
-<!--    </section>-->
 
 </body>
 </html>
