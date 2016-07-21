@@ -17,9 +17,10 @@ include("dbconnect.php");
 <body>
 <h2>Please see the following results:</h2>
     <br>
-<content id="con">
+
+<!--<content id="con">
     <ul>
-        <?
+        <?/*
         $sql_query = "select * from bugs";
         $result = $db->query($sql_query);
         while ($row = $result->fetch_array())
@@ -29,10 +30,10 @@ include("dbconnect.php");
             $bugCategory=$row["bugCategory"];
             echo "<li>{$bugName} {$bugCategory} {$bugSummary}</li>";
         }
-        ?>
+        */?>
     </ul>
     <br>
-</content>
+</content>-->
 
 <footer>
     <p>(c) 2016 Yannis Panagiotou</p>
