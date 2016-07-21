@@ -16,11 +16,7 @@ include("dbconnect.php");
     <link rel="stylesheet" href="unsemantic-grid-responsive-tablet.css">
     <meta
         name="viewport"
-        content="
-      width=device-width,
-      initial-scale=1,
-      minimum-scale=1,
-      maximum-scale=1"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"
     />
     <script>
         function writeText(txt) {
@@ -41,9 +37,9 @@ grid-33 tablet-grid-50
 mobile-grid-100
 " id="cont1">
 
-<img id="circuit" src="Screen 1.png" width="839" height="531" alt="Circuit" usemap="#planetmap">
+<img id="circuit" src="Screen 1.png" width="839" height="531" alt="Circuit" usemap="#circuitmap">
 
-<map name="planetmap">
+<map name="circuitmap">
     <area shape="rect" coords="0,0,82,126" alt="Sun" href="DataInput.php">
     <area shape="circle" coords="90,58,3" alt="Mercury" href="DataInput.php">
     <area shape="circle" coords="124,58,8" alt="Venus" href="DataInput.php">
