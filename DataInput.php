@@ -24,5 +24,11 @@ include("dbconnect.php");
         <input type="text" name="WP" placeholder="Wear Points" /><br><br>
         <input type="submit" name="submit" value="Proceed" />
     </form>
+
+<footer>
+    <p>(c) 2016 Yannis Panagiotou</p>
+</footer>
+
 </body>
+
 </html>

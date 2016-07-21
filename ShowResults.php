@@ -17,12 +17,26 @@ include("dbconnect.php");
 <body>
 <h2>Please see the following results:</h2>
     <br>
-    <form method="post" action="input.php">
-        <label>Current Gear:</label><br>
-        <input type="text" name="gear" placeholder="Current Gear" /><br><br>
-        <label>Wear Points:</label><br>
-        <input type="text" name="WP" placeholder="Wear Points" /><br><br>
-        <input type="submit" name="submit" value="Proceed" />
-    </form>
+<content id="con">
+    <ul>
+        <?
+        $sql_query = "select * from bugs";
+        $result = $db->query($sql_query);
+        while ($row = $result->fetch_array())
+        {
+            $bugName=$row["bugName"];
+            $bugSummary=$row["bugSummary"];
+            $bugCategory=$row["bugCategory"];
+            echo "<li>{$bugName} {$bugCategory} {$bugSummary}</li>";
+        }
+        ?>
+    </ul>
+    <br>
+</content>
+
+<footer>
+    <p>(c) 2016 Yannis Panagiotou</p>
+</footer>
+
 </body>
 </html>
