@@ -41,7 +41,7 @@ include("dbconnect.php");
         echo "<br>Error: ".$sql."<br>".mysqli_error($db);
     }
     header("location: ShowResults.php");
-}?>
+?>
 
 <footer>
     <p>(c) 2016 Yannis Panagiotou</p>
