@@ -31,9 +31,11 @@ include("dbconnect.php");
         while ($row = $result->fetch_array())
         {
             $gear=$row["Gear"];
+            $dice=$row["Dice"];
+            $corner=$row["Corner"];
             $WP=$row["WearPoints"];
 
-            echo "<li>{$gear} {$WP} </li>";
+            echo "<li>{$gear} {$dice} {$corner} {$WP} </li>";
         }
         ?>
     </ul>
