@@ -31,7 +31,7 @@ include("dbconnect.php");
         while ($row = $result->fetch_array())
         {
             $gear=$row["Gear"];
-            $WP=$row["Wear points to be lost"];
+            $WP=$row["Wear Points to be lost"];
 
             echo "<li>{$gear} {$WP} </li>";
         }
