@@ -23,22 +23,22 @@ include("dbconnect.php");
 <h2>Please see the following results:</h2>
     <br>
 
-<!--<content id="con">
+<content id="con">
     <ul>
-        <?/*
-        $sql_query = "select * from bugs";
+        <?
+        $sql_query = "select * from Results";
         $result = $db->query($sql_query);
         while ($row = $result->fetch_array())
         {
-            $bugName=$row["bugName"];
-            $bugSummary=$row["bugSummary"];
-            $bugCategory=$row["bugCategory"];
-            echo "<li>{$bugName} {$bugCategory} {$bugSummary}</li>";
+            $gear=$row["Gear"];
+            $WP=$row["Wear points to be lost"];
+
+            echo "<li>{$gear} {$WP} </li>";
         }
-        */?>
+        ?>
     </ul>
     <br>
-</content>-->
+</content>
 
 <footer>
     <p>(c) 2016 Yannis Panagiotou</p>
