@@ -37,7 +37,7 @@ elseif($_SERVER['REQUEST_METHOD'] === 'POST'){
     $gear = $_POST["gear"];
     $WP = $_POST["WP"];
 
-    $sql = "INSERT INTO Results ('Gear', 'Wear Points to be lost') VALUES ('$gear','$WP')";
+    $sql = "INSERT INTO Results (Gear, WearPoints) VALUES ('$gear','$WP')";
     if (mysqli_query($db, $sql)) {
     } else {
         echo "<br>Error: " . $sql . "<br>" . mysqli_error($db);
