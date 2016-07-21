@@ -17,7 +17,7 @@ include("dbconnect.php");
 <body>
 <h2>Please enter the following details:</h2>
     <br>
-    <form method="post" action="input.php">
+    <form method="post" action="ShowResults.php">
         <label>Current Gear:</label><br>
         <input type="text" name="gear" placeholder="Current Gear" /><br><br>
         <label>Wear Points:</label><br>
