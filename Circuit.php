@@ -32,7 +32,7 @@ include("dbconnect.php");
 
 <main class="grid-container">
 
-    <section class="grid-33 tablet-grid-50 mobile-grid-100" id="cont1">
+<!--    <section class="grid-33 tablet-grid-50 mobile-grid-100" id="cont1">-->
 
 <img id="circuit" src="Screen 1.png" width="839" height="531" alt="Circuit" usemap="#circuitmap">
 
@@ -50,7 +50,7 @@ include("dbconnect.php");
 </footer>
 
 
-    </section>
+<!--    </section>-->
 
 </body>
 </html>
