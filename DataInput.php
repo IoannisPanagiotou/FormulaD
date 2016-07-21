@@ -35,9 +35,11 @@ include("dbconnect.php");
 <?}
 elseif($_SERVER['REQUEST_METHOD'] === 'POST'){
     $gear = $_POST["gear"];
+    $dice = $_POST["gear"];
+    $corner = $_POST["gear"];
     $WP = $_POST["WP"];
 
-    $sql = "INSERT INTO Results (Gear, WearPoints) VALUES ('$gear','$WP')";
+    $sql = "INSERT INTO Results (Gear, Dice, Corner, WearPoints) VALUES ('$gear','$dice','$corner','$WP')";
     if (mysqli_query($db, $sql)) {
     } else {
         echo "<br>Error: " . $sql . "<br>" . mysqli_error($db);
