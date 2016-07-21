@@ -8,3 +8,8 @@ main {
     height: 532px;
     background-color: aliceblue;
 }
+h2 {
+    color: red;
+    font-size: 12px;
+    font-family: 'Indie Flower', cursive;
+}

@@ -12,6 +12,7 @@ include("dbconnect.php");
     <meta charset="utf-8">
     <title>Circuit</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="unsemantic-grid-responsive-tablet.css">
     <meta
         name="viewport"

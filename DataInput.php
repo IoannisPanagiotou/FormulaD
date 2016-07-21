@@ -12,6 +12,7 @@ include("dbconnect.php");
     <meta charset="utf-8">
     <title>Data Input</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <h2>Please enter the following details:</h2>
