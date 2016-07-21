@@ -22,7 +22,9 @@ include("dbconnect.php");
 <body>
 <h2>Please enter the following details:</h2>
     <br>
-    <form method="post" action="ShowResults.php">
+<?php if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+?>
+    <form method="post" action="<? echo $_SERVER['PHP_SELF']; ?>">
         <label>Current Gear:</label><br>
         <input type="number" name="gear" min="1" max="6" step="1" placeholder="Current Gear" required/><br><br>
         <label>Wear Points:</label><br>
@@ -30,8 +32,8 @@ include("dbconnect.php");
         <input type="submit" name="submit" value="Proceed" />
     </form>
 
-<?
-if($_SERVER['REQUEST_METHOD'] === 'POST'){
+<?}
+elseif($_SERVER['REQUEST_METHOD'] === 'POST'){
     $gear = $_POST["gear"];
     $WP = $_POST["WP"];
 
