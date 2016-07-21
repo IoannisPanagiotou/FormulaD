@@ -19,9 +19,9 @@ include("dbconnect.php");
     <br>
     <form method="post" action="ShowResults.php">
         <label>Current Gear:</label><br>
-        <input type="number" name="gear" min="0" max="6" step="1" placeholder="Current Gear" required/><br><br>
+        <input type="number" name="gear" min="1" max="6" step="1" placeholder="Current Gear" required/><br><br>
         <label>Wear Points:</label><br>
-        <input type="number" name="WP" min="0" max="18" step="1" placeholder="Wear Points" required/><br><br>
+        <input type="number" name="WP" min="1" max="18" step="1" placeholder="Wear Points" required/><br><br>
         <input type="submit" name="submit" value="Proceed" />
     </form>
 
