@@ -40,6 +40,9 @@ include("dbconnect.php");
             $min=$row["min"];
 
             $WP=$dice-$max;
+            if ($WP<0){
+                $WP=0;
+            }
 
             if ($gear==2){
                 for ($i=2;$i<=4;$i++){
