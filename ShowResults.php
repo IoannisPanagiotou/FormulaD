@@ -35,6 +35,13 @@ include("dbconnect.php");
             $corner=$row["Corner"];
             $WP=$row["WearPoints"];
 
+            if ($gear==2){
+                for ($i=2;$i=4;$i++){
+                    echo "<li>{$gear} {$dice} {$corner} {$WP} </li>";
+                }
+            }
+
+            echo "<br>";
             echo "<li>{$gear} {$dice} {$corner} {$WP} </li>";
         }
         ?>
