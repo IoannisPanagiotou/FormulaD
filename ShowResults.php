@@ -33,11 +33,17 @@ include("dbconnect.php");
             $gear=$row["Gear"];
             $dice=$row["Dice"];
             $corner=$row["Corner"];
-            $WP=$row["WearPoints"];
+
+
+            $prob=$row["Probability"];
+            $max=$row["max"];
+            $min=$row["min"];
+
+            $WP=$dice-$max;
 
             if ($gear==2){
                 for ($i=2;$i<=4;$i++){
-                    echo "<li>{$gear} {$dice} {$corner} {$WP} </li>";
+                    echo "<li>{$gear} {$dice} {$corner} {$WP} {$prob}</li>";
                 }
             }
 
