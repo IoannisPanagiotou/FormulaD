@@ -51,7 +51,7 @@ include("dbconnect.php");
             }
 
             echo "<br>";
-            echo "<li>{$gear} {$dice} {$corner} {$WP} </li>";
+            echo "<li>{$gear} {$dice} {$corner} {$WP} {$prob} {$max} {$min}</li>";
         }
         ?>
     </ul>
