@@ -44,9 +44,13 @@ include("dbconnect.php");
                 $WP=0;
             }
 
-            for ($i=$gear;$i<=6;$i++){
-                    echo "<li>{$i} {$dice} {$corner} {$WP} {$prob}</li>";
+            for ($i=$gear;$i<=6;$i++) {
+                if ($gear == 3) {
+                    for ($j = 4; $j <= 8; $j++) {
+                        echo "<li>{$i} {$j} {$dice} {$corner} {$WP} {$prob}</li>";
+                    }
                 }
+            }
 
             echo "<br>";
             echo "<li>{$gear} {$dice} {$corner} {$WP} {$prob} {$max} {$min}</li>";
