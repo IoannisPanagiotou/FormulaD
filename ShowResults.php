@@ -42,6 +42,8 @@ include("dbconnect.php");
     <br>
 </content>
 
+<a href="/" title="Back to the Home page"><b>HOME</b></a> | <a href="#" title="To the top of this page"><b>BACK TO TOP</b></a>
+
 <footer>
     <p>(c) 2016 Yannis Panagiotou</p>
 </footer>
