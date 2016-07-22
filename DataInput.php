@@ -48,7 +48,7 @@ elseif($_SERVER['REQUEST_METHOD'] === 'POST'){
 }
 ?>
 
-<a href="/" title="Back to the Home page"><b>HOME</b></a> | <a href="#" title="To the top of this page"><b>BACK TO TOP</b></a>
+<a href="/" title="Circuit.php"><b>HOME</b></a> | <a href="#" title="To the top of this page"><b>BACK TO TOP</b></a>
 
 <footer>
     <p>(c) 2016 Yannis Panagiotou</p>
