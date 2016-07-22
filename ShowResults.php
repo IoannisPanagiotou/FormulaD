@@ -36,8 +36,8 @@ include("dbconnect.php");
 
 
             $prob=$row["Probability"];
-            $max=$row["max"];
-            $min=$row["min"];
+            $max=$row["maximum"];
+            $min=$row["minimum"];
 
             $WP=$dice-$max;
             if ($WP<0){
