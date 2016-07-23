@@ -42,7 +42,7 @@ include("dbconnect.php");
                 if ($i == 1) {
                     if ($gear<>6) {
                         for ($j = 1; $j <= 2; $j++) {
-                            if ($min<$j&&$j<$max){
+                            if ($min<=$j&&$j<=$max){
                                 $corner=1;
                             }
                             $WPA = $gear - $i - 1;
@@ -60,7 +60,7 @@ include("dbconnect.php");
                 }
                 if ($i == 2) {
                     for ($j = 2; $j <= 4; $j++) {
-                        if ($min<$j&&$j<$max){
+                        if ($min<=$j&&$j<=$max){
                             $corner=1;
                         }
                         $WPA=$gear-$i-1;
@@ -77,7 +77,7 @@ include("dbconnect.php");
                 }
                 if ($i == 3) {
                     for ($j = 4; $j <= 8; $j++) {
-                        if ($min<$j&&$j<$max){
+                        if ($min<=$j&&$j<=$max){
                             $corner=1;
                         }
                         $WPA=$gear-$i-1;
@@ -94,7 +94,7 @@ include("dbconnect.php");
                 }
                 if ($i == 4) {
                     for ($j = 7; $j <= 12; $j++) {
-                        if ($min<$j&&$j<$max){
+                        if ($min<=$j&&$j<=$max){
                             $corner=1;
                         }
                         $WPA=$gear-$i-1;
@@ -111,7 +111,7 @@ include("dbconnect.php");
                 }
                 if ($i == 5) {
                     for ($j = 11; $j <= 20; $j++) {
-                        if ($min<$j&&$j<$max){
+                        if ($min<=$j&&$j<=$max){
                             $corner=1;
                         }
                         $WPA=$gear-$i-1;
@@ -128,7 +128,7 @@ include("dbconnect.php");
                 }
                 if ($i == 6) {
                     for ($j = 21; $j <= 30; $j++) {
-                        if ($min<$j&&$j<$max){
+                        if ($min<=$j&&$j<=$max){
                             $corner=1;
                         }
                         $WPA=$gear-$i-1;
