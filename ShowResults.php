@@ -31,7 +31,7 @@ include("dbconnect.php");
         while ($row = $result->fetch_array())
         {
             $gear = $_POST["gear"];
-            $corner=$row["Corner"];
+            $corner=0;
             $prob=$row["Probability"];
             $max=$row["maximum"];
             $min=$row["minimum"];
