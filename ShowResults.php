@@ -43,21 +43,20 @@ include("dbconnect.php");
 
             for ($i=1;$i<=6;$i++) {
                 if ($i == 1) {
-                    if ($gear==6){
-                        echo "<li>This choice is not available due to the game rules! You cannot go from 6th to 1st gear!</li>";
-                    }
-                    for ($j = 1; $j <= 2; $j++) {
-                        $WPA=$gear-$i-1;
-                        $WPO=$j-$max;
+                    if ($gear<>6) {
+                        for ($j = 1; $j <= 2; $j++) {
+                            $WPA = $gear - $i - 1;
+                            $WPO = $j - $max;
 
-                        if ($WPA<0){
-                            $WPA=0;
+                            if ($WPA < 0) {
+                                $WPA = 0;
+                            }
+                            if ($WPO < 0) {
+                                $WPO = 0;
+                            }
+                            $WP = $WPA + $WPO;
+                            echo "<li><pre>{$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</pre></li>";
                         }
-                        if ($WPO<0){
-                            $WPO=0;
-                        }
-                        $WP=$WPA+$WPO;
-                        echo "<li><pre>{$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</pre></li>";
                     }
                 }
                 if ($i == 2) {
