@@ -35,7 +35,6 @@ include("dbconnect.php");
 <?}
 elseif($_SERVER['REQUEST_METHOD'] === 'POST'){
     $gear = $_POST["gear"];
-    $dice;
     $corner;
     $WP = $_POST["WP"];
     $prob;
