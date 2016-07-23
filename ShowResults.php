@@ -44,27 +44,27 @@ include("dbconnect.php");
             }
 
             for ($i=$gear;$i<=6;$i++) {
-                if ($gear == 2) {
+                if ($i == 2) {
                     for ($j = 2; $j <= 4; $j++) {
                         echo "<li>{$i} {$j} {$dice} {$corner} {$WP} {$prob}</li>";
                     }
                 }
-                if ($gear == 3) {
+                if ($i == 3) {
                     for ($j = 4; $j <= 8; $j++) {
                         echo "<li>{$i} {$j} {$dice} {$corner} {$WP} {$prob}</li>";
                     }
                 }
-                if ($gear == 4) {
+                if ($i == 4) {
                     for ($j = 7; $j <= 12; $j++) {
                         echo "<li>{$i} {$j} {$dice} {$corner} {$WP} {$prob}</li>";
                     }
                 }
-                if ($gear == 5) {
+                if ($i == 5) {
                     for ($j = 11; $j <= 20; $j++) {
                         echo "<li>{$i} {$j} {$dice} {$corner} {$WP} {$prob}</li>";
                     }
                 }
-                /*if ($gear == 6) {
+                /*if ($i == 6) {
                     for ($j = 4; $j <= 8; $j++) {
                         echo "<li>{$i} {$j} {$dice} {$corner} {$WP} {$prob}</li>";
                     }
