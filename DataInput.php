@@ -41,11 +41,11 @@ elseif($_SERVER['REQUEST_METHOD'] === 'POST'){
     $max;
     $min;
 
-    $sql = "INSERT INTO Results (Gear, Corner, WearPoints, Probability, maximum, minimum) VALUES ('$gear','$corner','$WP','$prob','$max','$min')";
+    /*$sql = "INSERT INTO Results (Gear, Corner, WearPoints, Probability, maximum, minimum) VALUES ('$gear','$corner','$WP','$prob','$max','$min')";
     if (mysqli_query($db, $sql)) {
     } else {
         echo "<br>Error: " . $sql . "<br>" . mysqli_error($db);
-    }
+    }*/
     header("location: ShowResults.php");
 }
 ?>
