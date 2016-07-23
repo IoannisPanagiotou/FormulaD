@@ -54,7 +54,7 @@ include("dbconnect.php");
                             $WPO=0;
                         }
                         $WP=$WPA+$WPO;
-                        echo "<li>{$i}   str_repeat('&nbsp;', 5) {$j}   str_repeat('&nbsp;', 5) {$corner}  str_repeat('&nbsp;', 5)  {$WPO}   str_repeat('&nbsp;', 5) {$WPA}  str_repeat('&nbsp;', 5)  {$WP}   str_repeat('&nbsp;', 5) {$prob}</li>";
+                        echo "<li><pre>{$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</pre></li>";
                     }
                 }
                 if ($i == 3) {
@@ -69,7 +69,7 @@ include("dbconnect.php");
                             $WPO=0;
                         }
                         $WP=$WPA+$WPO;
-                        echo "<li>{$i}   str_repeat('&nbsp;', 5) {$j}   str_repeat('&nbsp;', 5) {$corner} str_repeat('&nbsp;', 5)   {$WPO} str_repeat('&nbsp;', 5)   {$WPA} str_repeat('&nbsp;', 5)   {$WP} str_repeat('&nbsp;', 5)   {$prob}</li>";
+                        echo "<li><pre>{$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</pre></li>";
                     }
                 }
                 if ($i == 4) {
@@ -84,7 +84,7 @@ include("dbconnect.php");
                             $WPO=0;
                         }
                         $WP=$WPA+$WPO;
-                        echo "<li>{$i}  str_repeat('&nbsp;', 5)  {$j}  str_repeat('&nbsp;', 5)  {$corner}   str_repeat('&nbsp;', 5) {$WPO}  str_repeat('&nbsp;', 5)  {$WPA}  str_repeat('&nbsp;', 5)  {$WP}  str_repeat('&nbsp;', 5)  {$prob}</li>";
+                        echo "<li><pre>{$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</pre></li>";
                     }
                 }
                 if ($i == 5) {
@@ -99,7 +99,7 @@ include("dbconnect.php");
                             $WPO=0;
                         }
                         $WP=$WPA+$WPO;
-                        echo "<li>{$i}  str_repeat('&nbsp;', 5) {$j} str_repeat('&nbsp;', 5) {$corner} str_repeat('&nbsp;', 5) {$WPO}  str_repeat('&nbsp;', 5)  {$WPA} str_repeat('&nbsp;', 5) {$WP}  str_repeat('&nbsp;', 5)  {$prob}</li>";
+                        echo "<li><pre>{$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</pre></li>";
                     }
                 }
                 /*if ($i == 6) {
