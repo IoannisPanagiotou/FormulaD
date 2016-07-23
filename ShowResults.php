@@ -30,7 +30,7 @@ include("dbconnect.php");
         $result = $db->query($sql_query);
         while ($row = $result->fetch_array())
         {
-
+            $gear = $_POST["gear"];
             $corner=$row["Corner"];
 
             $prob=$row["Probability"];
