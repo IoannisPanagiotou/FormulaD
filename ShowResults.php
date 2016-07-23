@@ -54,7 +54,7 @@ include("dbconnect.php");
                             $WPO=0;
                         }
                         $WP=$WPA+$WPO;
-                        echo "<li>{$i} {$j} {$corner} {$WPO} {$WPA} {$WP} {$prob}</li>";
+                        echo "<li>{$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</li>";
                     }
                 }
                 if ($i == 3) {
@@ -69,7 +69,7 @@ include("dbconnect.php");
                             $WPO=0;
                         }
                         $WP=$WPA+$WPO;
-                        echo "<li>{$i} {$j} {$corner} {$WPO} {$WPA} {$WP} {$prob}</li>";
+                        echo "<li>{$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</li>";
                     }
                 }
                 if ($i == 4) {
@@ -84,7 +84,7 @@ include("dbconnect.php");
                             $WPO=0;
                         }
                         $WP=$WPA+$WPO;
-                        echo "<li>{$i} {$j} {$corner} {$WPO} {$WPA} {$WP} {$prob}</li>";
+                        echo "<li>{$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</li>";
                     }
                 }
                 if ($i == 5) {
@@ -99,7 +99,7 @@ include("dbconnect.php");
                             $WPO=0;
                         }
                         $WP=$WPA+$WPO;
-                        echo "<li>{$i} {$j} {$corner} {$WPO} {$WPA} {$WP} {$prob}</li>";
+                        echo "<li>{$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</li>";
                     }
                 }
                 /*if ($i == 6) {
