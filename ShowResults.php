@@ -46,10 +46,14 @@ include("dbconnect.php");
                     for ($j = 2; $j <= 4; $j++) {
                         $WPA=$gear-$i-1;
                         $WPO=$j-$max;
-                        $WP=$WPA+$WPO;
-                        if ($WP<0){
-                            $WP=0;
+
+                        if ($WPA<0){
+                            $WPA=0;
                         }
+                        if ($WPO<0){
+                            $WPO=0;
+                        }
+                        $WP=$WPA+$WPO;
                         echo "<li>{$i} {$j} {$corner} {$WPO} {$WPA} {$WP} {$prob}</li>";
                     }
                 }
@@ -57,10 +61,14 @@ include("dbconnect.php");
                     for ($j = 4; $j <= 8; $j++) {
                         $WPA=$gear-$i-1;
                         $WPO=$j-$max;
-                        $WP=$WPA+$WPO;
-                        if ($WP<0){
-                            $WP=0;
+
+                        if ($WPA<0){
+                            $WPA=0;
                         }
+                        if ($WPO<0){
+                            $WPO=0;
+                        }
+                        $WP=$WPA+$WPO;
                         echo "<li>{$i} {$j} {$corner} {$WPO} {$WPA} {$WP} {$prob}</li>";
                     }
                 }
@@ -68,10 +76,14 @@ include("dbconnect.php");
                     for ($j = 7; $j <= 12; $j++) {
                         $WPA=$gear-$i-1;
                         $WPO=$j-$max;
-                        $WP=$WPA+$WPO;
-                        if ($WP<0){
-                            $WP=0;
+
+                        if ($WPA<0){
+                            $WPA=0;
                         }
+                        if ($WPO<0){
+                            $WPO=0;
+                        }
+                        $WP=$WPA+$WPO;
                         echo "<li>{$i} {$j} {$corner} {$WPO} {$WPA} {$WP} {$prob}</li>";
                     }
                 }
@@ -79,10 +91,14 @@ include("dbconnect.php");
                     for ($j = 11; $j <= 20; $j++) {
                         $WPA=$gear-$i-1;
                         $WPO=$j-$max;
-                        $WP=$WPA+$WPO;
-                        if ($WP<0){
-                            $WP=0;
+
+                        if ($WPA<0){
+                            $WPA=0;
                         }
+                        if ($WPO<0){
+                            $WPO=0;
+                        }
+                        $WP=$WPA+$WPO;
                         echo "<li>{$i} {$j} {$corner} {$WPO} {$WPA} {$WP} {$prob}</li>";
                     }
                 }
