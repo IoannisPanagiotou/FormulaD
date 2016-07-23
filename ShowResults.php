@@ -41,7 +41,7 @@ include("dbconnect.php");
 
             echo "<li>Gear Number CornerHit WearPoints Probability</li>";
 
-            for ($i=2;$i<=6;$i++) {
+            for ($i=1;$i<=6;$i++) {
                 if ($i == 1) {
                     if ($gear==6){
                         echo "<li>This choice is not available due to the game rules! You cannot go from 6th to 1st gear!</li>";
