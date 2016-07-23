@@ -41,7 +41,7 @@ include("dbconnect.php");
 
             echo "<li>Gear Number CornerHit WearPoints Probability</li>";
 
-            for ($i=$gear;$i<=6;$i++) {
+            for ($i=2;$i<=6;$i++) {
                 if ($i == 2) {
                     for ($j = 2; $j <= 4; $j++) {
                         $WPA=$gear-$i-1;
