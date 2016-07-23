@@ -41,7 +41,7 @@ include("dbconnect.php");
 
             echo "<li>Gear Number CornerHit WearPoints Probability</li>";
 
-            for ($i=1;$i<=6;$i++) {
+            for ($i=1;$i<=($gear+1);$i++) {
                 if ($i == 1) {
                     if ($gear<>6) {
                         for ($j = 1; $j <= 2; $j++) {
