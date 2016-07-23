@@ -45,7 +45,8 @@ include("dbconnect.php");
             for ($i=$gear;$i<=6;$i++) {
                 if ($i == 2) {
                     for ($j = 2; $j <= 4; $j++) {
-                        $WP=$j-$max;
+                        $WPA=$gear-$i-1;
+                        $WP=$j-$max+$WPA;
                         if ($WP<0){
                             $WP=0;
                         }
@@ -54,7 +55,8 @@ include("dbconnect.php");
                 }
                 if ($i == 3) {
                     for ($j = 4; $j <= 8; $j++) {
-                        $WP=$j-$max;
+                        $WPA=$gear-$i-1;
+                        $WP=$j-$max+$WPA;
                         if ($WP<0){
                             $WP=0;
                         }
@@ -63,7 +65,8 @@ include("dbconnect.php");
                 }
                 if ($i == 4) {
                     for ($j = 7; $j <= 12; $j++) {
-                        $WP=$j-$max;
+                        $WPA=$gear-$i-1;
+                        $WP=$j-$max+$WPA;
                         if ($WP<0){
                             $WP=0;
                         }
@@ -72,7 +75,8 @@ include("dbconnect.php");
                 }
                 if ($i == 5) {
                     for ($j = 11; $j <= 20; $j++) {
-                        $WP=$j-$max;
+                        $WPA=$gear-$i-1;
+                        $WP=$j-$max+$WPA;
                         if ($WP<0){
                             $WP=0;
                         }
