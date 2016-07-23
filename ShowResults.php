@@ -42,6 +42,24 @@ include("dbconnect.php");
             echo "<li>Gear Number CornerHit WearPoints Probability</li>";
 
             for ($i=2;$i<=6;$i++) {
+                if ($i == 1) {
+                    if ($gear==6){
+                        echo "<li>This choice is not available due to the game rules! You cannot go from 6th to 1st gear!</li>";
+                    }
+                    for ($j = 1; $j <= 2; $j++) {
+                        $WPA=$gear-$i-1;
+                        $WPO=$j-$max;
+
+                        if ($WPA<0){
+                            $WPA=0;
+                        }
+                        if ($WPO<0){
+                            $WPO=0;
+                        }
+                        $WP=$WPA+$WPO;
+                        echo "<li><pre>{$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</pre></li>";
+                    }
+                }
                 if ($i == 2) {
                     for ($j = 2; $j <= 4; $j++) {
                         $WPA=$gear-$i-1;
@@ -102,11 +120,21 @@ include("dbconnect.php");
                         echo "<li><pre>{$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</pre></li>";
                     }
                 }
-                /*if ($i == 6) {
-                    for ($j = 4; $j <= 8; $j++) {
-                        echo "<li>{$i} {$j} {$corner} {$WP} {$prob}</li>";
+                if ($i == 6) {
+                    for ($j = 21; $j <= 30; $j++) {
+                        $WPA=$gear-$i-1;
+                        $WPO=$j-$max;
+
+                        if ($WPA<0){
+                            $WPA=0;
+                        }
+                        if ($WPO<0){
+                            $WPO=0;
+                        }
+                        $WP=$WPA+$WPO;
+                        echo "<li><pre>{$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</pre></li>";
                     }
-                }*/
+                }
             }
 
             echo "<br>";
