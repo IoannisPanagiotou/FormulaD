@@ -32,7 +32,6 @@ include("dbconnect.php");
         {
             $gear = $_POST["gear"];
             $corner=$row["Corner"];
-
             $prob=$row["Probability"];
             $max=$row["maximum"];
             $min=$row["minimum"];
@@ -45,9 +44,11 @@ include("dbconnect.php");
                 if ($i == 1) {
                     if ($gear<>6) {
                         for ($j = 1; $j <= 2; $j++) {
+                            if ($min<$j&&$j<$max){
+                                $corner=1;
+                            }
                             $WPA = $gear - $i - 1;
                             $WPO = $j - $max;
-
                             if ($WPA < 0) {
                                 $WPA = 0;
                             }
@@ -63,7 +64,6 @@ include("dbconnect.php");
                     for ($j = 2; $j <= 4; $j++) {
                         $WPA=$gear-$i-1;
                         $WPO=$j-$max;
-
                         if ($WPA<0){
                             $WPA=0;
                         }
@@ -78,7 +78,6 @@ include("dbconnect.php");
                     for ($j = 4; $j <= 8; $j++) {
                         $WPA=$gear-$i-1;
                         $WPO=$j-$max;
-
                         if ($WPA<0){
                             $WPA=0;
                         }
@@ -93,7 +92,6 @@ include("dbconnect.php");
                     for ($j = 7; $j <= 12; $j++) {
                         $WPA=$gear-$i-1;
                         $WPO=$j-$max;
-
                         if ($WPA<0){
                             $WPA=0;
                         }
@@ -108,7 +106,6 @@ include("dbconnect.php");
                     for ($j = 11; $j <= 20; $j++) {
                         $WPA=$gear-$i-1;
                         $WPO=$j-$max;
-
                         if ($WPA<0){
                             $WPA=0;
                         }
@@ -123,7 +120,6 @@ include("dbconnect.php");
                     for ($j = 21; $j <= 30; $j++) {
                         $WPA=$gear-$i-1;
                         $WPO=$j-$max;
-
                         if ($WPA<0){
                             $WPA=0;
                         }
