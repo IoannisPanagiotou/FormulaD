@@ -31,50 +31,63 @@ include("dbconnect.php");
         while ($row = $result->fetch_array())
         {
             $gear=$row["Gear"];
-            $dice=$row["Dice"];
+
             $corner=$row["Corner"];
 
             $prob=$row["Probability"];
             $max=$row["maximum"];
             $min=$row["minimum"];
 
-            $WP=$dice-$max;
-            if ($WP<0){
-                $WP=0;
-            }
+
 
             echo "<li>Gear Number CornerHit WearPoints Probability</li>";
 
             for ($i=$gear;$i<=6;$i++) {
                 if ($i == 2) {
                     for ($j = 2; $j <= 4; $j++) {
-                        echo "<li>{$i} {$j} {$dice} {$corner} {$WP} {$prob}</li>";
+                        $WP=$j-$max;
+                        if ($WP<0){
+                            $WP=0;
+                        }
+                        echo "<li>{$i} {$j} {$corner} {$WP} {$prob}</li>";
                     }
                 }
                 if ($i == 3) {
                     for ($j = 4; $j <= 8; $j++) {
-                        echo "<li>{$i} {$j} {$dice} {$corner} {$WP} {$prob}</li>";
+                        $WP=$j-$max;
+                        if ($WP<0){
+                            $WP=0;
+                        }
+                        echo "<li>{$i} {$j} {$corner} {$WP} {$prob}</li>";
                     }
                 }
                 if ($i == 4) {
                     for ($j = 7; $j <= 12; $j++) {
-                        echo "<li>{$i} {$j} {$dice} {$corner} {$WP} {$prob}</li>";
+                        $WP=$j-$max;
+                        if ($WP<0){
+                            $WP=0;
+                        }
+                        echo "<li>{$i} {$j} {$corner} {$WP} {$prob}</li>";
                     }
                 }
                 if ($i == 5) {
                     for ($j = 11; $j <= 20; $j++) {
-                        echo "<li>{$i} {$j} {$dice} {$corner} {$WP} {$prob}</li>";
+                        $WP=$j-$max;
+                        if ($WP<0){
+                            $WP=0;
+                        }
+                        echo "<li>{$i} {$j} {$corner} {$WP} {$prob}</li>";
                     }
                 }
                 /*if ($i == 6) {
                     for ($j = 4; $j <= 8; $j++) {
-                        echo "<li>{$i} {$j} {$dice} {$corner} {$WP} {$prob}</li>";
+                        echo "<li>{$i} {$j} {$corner} {$WP} {$prob}</li>";
                     }
                 }*/
             }
 
             echo "<br>";
-            echo "<li>{$gear} {$dice} {$corner} {$WP} {$prob} {$max} {$min}</li>";
+            echo "<li>{$gear} {$corner} {$WP} {$prob} {$max} {$min}</li>";
         }
         ?>
     </ul>
