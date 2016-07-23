@@ -30,7 +30,7 @@ include("dbconnect.php");
         $result = $db->query($sql_query);
         while ($row = $result->fetch_array())
         {
-            
+
             $corner=$row["Corner"];
 
             $prob=$row["Probability"];
@@ -45,41 +45,45 @@ include("dbconnect.php");
                 if ($i == 2) {
                     for ($j = 2; $j <= 4; $j++) {
                         $WPA=$gear-$i-1;
-                        $WP=$j-$max+$WPA;
+                        $WPO=$j-$max;
+                        $WP=$WPA+$WPO;
                         if ($WP<0){
                             $WP=0;
                         }
-                        echo "<li>{$i} {$j} {$corner} {$WP} {$prob}</li>";
+                        echo "<li>{$i} {$j} {$corner} {$WPO} {$WPA} {$WP} {$prob}</li>";
                     }
                 }
                 if ($i == 3) {
                     for ($j = 4; $j <= 8; $j++) {
                         $WPA=$gear-$i-1;
-                        $WP=$j-$max+$WPA;
+                        $WPO=$j-$max;
+                        $WP=$WPA+$WPO;
                         if ($WP<0){
                             $WP=0;
                         }
-                        echo "<li>{$i} {$j} {$corner} {$WP} {$prob}</li>";
+                        echo "<li>{$i} {$j} {$corner} {$WPO} {$WPA} {$WP} {$prob}</li>";
                     }
                 }
                 if ($i == 4) {
                     for ($j = 7; $j <= 12; $j++) {
                         $WPA=$gear-$i-1;
-                        $WP=$j-$max+$WPA;
+                        $WPO=$j-$max;
+                        $WP=$WPA+$WPO;
                         if ($WP<0){
                             $WP=0;
                         }
-                        echo "<li>{$i} {$j} {$corner} {$WP} {$prob}</li>";
+                        echo "<li>{$i} {$j} {$corner} {$WPO} {$WPA} {$WP} {$prob}</li>";
                     }
                 }
                 if ($i == 5) {
                     for ($j = 11; $j <= 20; $j++) {
                         $WPA=$gear-$i-1;
-                        $WP=$j-$max+$WPA;
+                        $WPO=$j-$max;
+                        $WP=$WPA+$WPO;
                         if ($WP<0){
                             $WP=0;
                         }
-                        echo "<li>{$i} {$j} {$corner} {$WP} {$prob}</li>";
+                        echo "<li>{$i} {$j} {$corner} {$WPO} {$WPA} {$WP} {$prob}</li>";
                     }
                 }
                 /*if ($i == 6) {
