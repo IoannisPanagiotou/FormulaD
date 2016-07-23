@@ -22,9 +22,9 @@ include("dbconnect.php");
 <body>
 <h2>Please enter the following details:</h2>
     <br>
-<?php if ($_SERVER['REQUEST_METHOD'] === 'GET') {
-?>
-    <form method="post" action="<? echo $_SERVER['PHP_SELF']; ?>">
+<?php /*if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+*/?>
+    <form method="post" action="ShowResults.php">
         <label>Current Gear:</label><br>
         <input type="number" name="gear" min="1" max="6" step="1" placeholder="Current Gear" required/><br><br>
         <label>Wear Points:</label><br>
@@ -32,7 +32,7 @@ include("dbconnect.php");
         <input type="submit" name="submit" value="Proceed" />
     </form>
 
-<?}
+<?/*}
 elseif($_SERVER['REQUEST_METHOD'] === 'POST'){
     $gear = $_POST["gear"];
     $corner;
@@ -41,14 +41,14 @@ elseif($_SERVER['REQUEST_METHOD'] === 'POST'){
     $max;
     $min;
 
-    /*$sql = "INSERT INTO Results (Gear, Corner, WearPoints, Probability, maximum, minimum) VALUES ('$gear','$corner','$WP','$prob','$max','$min')";
+    $sql = "INSERT INTO Results (Gear, Corner, WearPoints, Probability, maximum, minimum) VALUES ('$gear','$corner','$WP','$prob','$max','$min')";
     if (mysqli_query($db, $sql)) {
     } else {
         echo "<br>Error: " . $sql . "<br>" . mysqli_error($db);
-    }*/
+    }
     header("location: ShowResults.php");
 }
-?>
+*/?>
 
 <a href="Circuit.php" title="Back to the Home page"><b>HOME</b></a> | <a href="#" title="To the top of this page"><b>BACK TO TOP</b></a>
 
