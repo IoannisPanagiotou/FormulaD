@@ -19,8 +19,8 @@ include("dbconnect.php");
         content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"
     />
     <script>
-        function myFunction(id) {
-            document.getElementById("area1").style.backgroundColor="red";
+        function myFunction() {
+            elem.style.backgroundColor="red";
             //alert("Hello World")
         }
     </script>
