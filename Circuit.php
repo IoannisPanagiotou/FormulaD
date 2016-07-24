@@ -19,11 +19,16 @@ include("dbconnect.php");
         content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"
     />
     <script>
+        <script type="text/javascript" src="http://davidlynch.org/projects/maphilight/jquery.maphilight.js"></script>
         function myFunction() {
             //.parent().effect('highlight', {color: '#C7F464'}, 2000);
             alert("Hello World")
         }
     </script>
+    jQuery(function()
+    {
+        jQuery('#circuitmap').maphilight();
+    });
 </head>
 
 <body>
@@ -39,8 +44,8 @@ include("dbconnect.php");
     <area shape="rect" coords="0,0,82,126" alt="Sun" href="DataInput.php">
     <area shape="circle" coords="90,58,3" alt="Mercury" href="DataInput.php">
     <area shape="circle" coords="124,58,8" alt="Venus" href="DataInput.php">
-    <area class="area1" shape="poly" coords="271,177,267,185,282,191,284,184" alt="Block1"
-
+    <area id="area1" shape="poly" coords="271,177,267,185,282,191,284,184" alt="Block1"
+            data-maphilight='{"strokeColor":"0000ff","strokeWidth":5,"fillColor":"00ff00","fillOpacity":0.6}'
           href="DataInput.php" />
     <area shape="poly" coords="286,183,282,191,295,196,298,190" alt="Block2"
           onmouseover="myFunction()"
