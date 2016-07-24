@@ -19,7 +19,7 @@ a {
 footer {
     font-size: 11px;
 }
-.circuit-1:hover {
+area:hover {
     background-color: yellow;           /* Yellow Highlight On Hover */
     opacity: 0.2;
     filter: alpha(opacity=20);
