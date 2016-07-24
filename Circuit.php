@@ -23,8 +23,9 @@ include("dbconnect.php");
             //.parent().effect('highlight', {color: '#C7F464'}, 2000);
             alert("Hello World")
         }
-        function writeText(txt) {
-            document.getElementById("area1").innerHTML = txt;
+        function bigImg(x) {
+            x.style.height = "64px";
+            x.style.width = "64px";
         }
     </script>
 </head>
@@ -46,7 +47,7 @@ include("dbconnect.php");
           onmouseover="myFunction()"
           href="DataInput.php" />
     <area shape="poly" coords="286,183,282,191,295,196,298,190" alt="Block2"
-          onmouseover="writeText('The Sun and the gas giant planets like Jupiter are by far the largest objects in our Solar System.')"
+          onmouseover="bigImg(this)"
           href="DataInput.php" />
 </map>
 
