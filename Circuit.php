@@ -60,9 +60,9 @@ include("dbconnect.php");
 <!--          data-maphilight="{'strokeColor':'0000ff','strokeWidth':5,'fillColor':'00ff00','fillOpacity':0.6}" -->
 <!--    style="filter:alpha(opacity=20);-moz-opacity:0.2" onMouseover="makevisible(this,0)" onMouseout="makevisible(this,1)" -->
 
-    <area shape="poly" coords="286,183,282,191,295,196,298,190" alt="Block2"
+    <area shape="poly" coords="286,183,282,191,295,196,298,190" alt="Block2" href="DataInput.php" />
 <!--          onmouseover="myFunction()"-->
-          href="DataInput.php" />
+
 </map>
 
 <footer>
