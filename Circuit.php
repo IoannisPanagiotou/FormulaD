@@ -23,12 +23,15 @@ include("dbconnect.php");
             //.parent().effect('highlight', {color: '#C7F464'}, 2000);
             alert("Hello World")
         }
+        function writeText(txt) {
+            document.getElementById("desc").innerHTML = txt;
+        }
     </script>
 </head>
 
 <body>
 
-<h2>Click on the corresponding block to enter the data</h2>
+<h2 id="desc">Click on the corresponding block to enter the data</h2>
 <br>
 
 <main class="grid-container">
@@ -43,7 +46,7 @@ include("dbconnect.php");
           onmouseover="myFunction()"
           href="DataInput.php" />
     <area shape="poly" coords="286,183,282,191,295,196,298,190" alt="Block2"
-          onclick="myFunction()"
+          onmouseover="writeText('The Sun and the gas giant planets like Jupiter are by far the largest objects in our Solar System.')"
           href="DataInput.php" />
 </map>
 
