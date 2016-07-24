@@ -18,11 +18,16 @@ include("dbconnect.php");
         name="viewport"
         content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"
     />
-    <!--<script LANGUAGE="JavaScript" type="text/javascript">
-        function update(t) {
-            document.form1.text1.value = t;
-        }
-    </script>-->
+    <script LANGUAGE="JavaScript" type="text/javascript">
+        $('#circuitmap').usmap({
+            // The click action
+            click: function(event, data) {
+                $('#clicked-state')
+                    .text('You clicked: '+data.name)
+                    .parent().effect('highlight', {color: '#C7F464'}, 2000);
+            }
+        });
+    </script>
 </head>
 
 <body>
