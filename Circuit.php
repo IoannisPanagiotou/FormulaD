@@ -27,7 +27,7 @@ include("dbconnect.php");
     <script type="text/javascript" src="http://davidlynch.org/projects/maphilight/jquery.maphilight.js">
     jQuery(function()
     {
-        jQuery('#circuitmap').maphilight();
+        jQuery('#circuit').maphilight();
     });
     </script>
 </head>
