@@ -20,7 +20,7 @@ include("dbconnect.php");
     />
     <script>
         function myFunction() {
-            .parent().effect('highlight', {color: '#C7F464'}, 2000);
+            effect('highlight', {color: '#C7F464'}, 2000);
         }
     </script>
 </head>
