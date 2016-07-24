@@ -24,14 +24,14 @@ include("dbconnect.php");
             alert("Hello World")
         }
         function writeText(txt) {
-            document.getElementById("desc").innerHTML = txt;
+            document.getElementById("area1").innerHTML = txt;
         }
     </script>
 </head>
 
 <body>
 
-<h2 id="desc">Click on the corresponding block to enter the data</h2>
+<h2>Click on the corresponding block to enter the data</h2>
 <br>
 
 <main class="grid-container">
