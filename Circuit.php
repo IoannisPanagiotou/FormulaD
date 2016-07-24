@@ -41,7 +41,7 @@ include("dbconnect.php");
     <area shape="poly" coords="271,177,267,185,282,191,284,184" alt="Block1" href="DataInput.php" class="area1"
           href="DataInput.php"/>
     <area shape="poly" coords="286,183,282,191,295,196,298,190" alt="Block2" class="area2"
-          onClick="alert('Choice made!');return false"
+          onClick="alert('Choice made!');return true"
           href="DataInput.php" />
 </map>
 
