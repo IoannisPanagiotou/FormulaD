@@ -19,3 +19,6 @@ a {
 footer {
     font-size: 10px;
 }
+#area1:hover, #area2:hover {
+    opacity:0.2;
+}
