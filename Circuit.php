@@ -19,9 +19,9 @@ include("dbconnect.php");
         content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"
     />
     <script>
-        $(function() {
+        /*$(function() {
             $('#circuit').maphilight();
-        });
+        });*/
         /*function makevisible(cur,which){
             strength=(which==0)? 1 : 0.2
             if (cur.style.MozOpacity)
@@ -55,8 +55,8 @@ include("dbconnect.php");
     <area shape="rect" coords="0,0,82,126" alt="Sun" href="DataInput.php">
     <area shape="circle" coords="90,58,3" alt="Mercury" href="DataInput.php">
     <area shape="circle" coords="124,58,8" alt="Venus" href="DataInput.php">
-    <area id="circuit-1" shape="poly" coords="271,177,267,185,282,191,284,184" alt="" href="DataInput.php"
-          style="outline:none;" target="_self" data-maphilight='{"stroke":false,"fillColor":"cbf68c","fillOpacity":0.6}'/>
+    <area id="circuit-1" shape="poly" coords="271,177,267,185,282,191,284,184" alt="" href="DataInput.php"/>
+<!--          style="outline:none;" target="_self" data-maphilight='{"stroke":false,"fillColor":"cbf68c","fillOpacity":0.6}'-->
 <!--          data-maphilight="{'strokeColor':'0000ff','strokeWidth':5,'fillColor':'00ff00','fillOpacity':0.6}" -->
 <!--    style="filter:alpha(opacity=20);-moz-opacity:0.2" onMouseover="makevisible(this,0)" onMouseout="makevisible(this,1)" -->
 
