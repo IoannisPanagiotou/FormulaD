@@ -19,8 +19,8 @@ include("dbconnect.php");
         content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"
     />
     <script>
-        function writeText(txt) {
-            document.getElementById("desc").innerHTML = txt;
+        function myFunction() {
+            document.getElementById("demo").style.color = "red";
         }
     </script>
 </head>
@@ -39,7 +39,7 @@ include("dbconnect.php");
     <area shape="circle" coords="90,58,3" alt="Mercury" href="DataInput.php">
     <area shape="circle" coords="124,58,8" alt="Venus" href="DataInput.php">
     <area shape="poly" coords="271,177,267,185,282,191,284,184" alt="Block1"
-          onmouseover="writeText('The Sun and the gas giant planets like Jupiter are by far.')"
+          id="demo" onclick="myFunction()"
           href="DataInput.php" />
     <area shape="poly" coords="286,183,282,191,295,196,298,190" alt="Block2"
           onmouseover="writeText('The Sun and the gas giant planets like Jupiter are by far.')"
