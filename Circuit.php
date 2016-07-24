@@ -155,9 +155,9 @@ include("dbconnect.php");
 
 
 <main>
-<img src="Screen 1.png" width="839" height="531" alt="" usemap="#circuitmap" class="map">
+<img id='img-imgmap201293016112' src="Screen 1.png" width="839" height="531" alt="" usemap="#circuitmap" class="map">
 
-<map name="circuitmap">
+<map id='img-imgmap201293016112' name="circuitmap">
     <area shape="rect" coords="0,0,82,126" alt="Sun" href="DataInput.php">
     <area shape="circle" coords="90,58,3" alt="Mercury" href="DataInput.php">
     <area shape="circle" coords="124,58,8" alt="Venus" href="DataInput.php">
