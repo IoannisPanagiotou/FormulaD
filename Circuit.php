@@ -54,7 +54,7 @@ include("dbconnect.php");
 <br>
 
 
-<div>
+<main>
 <img id="circuit" src="Screen 1.png" width="839" height="531" alt="" usemap="#circuitmap" class="map">
 
 <map name="circuitmap">
@@ -70,7 +70,9 @@ include("dbconnect.php");
 <!--          onmouseover="myFunction()"-->
 
 </map>
-</div>
+
+</main>
+
 <footer>
     <p>(c) 2016 Yannis Panagiotou</p>
 </footer>
