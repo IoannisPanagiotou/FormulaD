@@ -19,14 +19,8 @@ include("dbconnect.php");
         content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"
     />
     <script>
-        $('#area1')({
-            // The click action
-            click: function(event, data) {
                 $('#area1')
-                    .text('You clicked: '+data.name)
                     .parent().effect('highlight', {color: '#C7F464'}, 2000);
-            }
-        });
         function myFunction() {
             //effect('highlight', {color: '#C7F464'}, 2000);
             alert("Hello World")
