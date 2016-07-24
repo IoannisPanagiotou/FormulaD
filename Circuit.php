@@ -55,7 +55,7 @@ include("dbconnect.php");
 
 
 <main>
-<img id="circuit" src="Screen 1.png" width="839" height="531" alt="" usemap="#circuitmap" class="map">
+<img src="Screen 1.png" width="839" height="531" alt="" usemap="#circuitmap" class="map">
 
 <map name="circuitmap">
     <area shape="rect" coords="0,0,82,126" alt="Sun" href="DataInput.php">
