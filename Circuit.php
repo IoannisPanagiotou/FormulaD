@@ -20,8 +20,8 @@ include("dbconnect.php");
     />
     <script>
         function myFunction() {
-            document.getElementById("area1").style.backgroundColor="red"
-            //alert("Hello World")
+            //document.getElementById("area1").style.backgroundColor="red"
+            alert("Hello World")
         }
     </script>
 </head>
