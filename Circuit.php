@@ -20,7 +20,8 @@ include("dbconnect.php");
     />
     <script>
         hover: function myFunction() {
-        .parent().effect('highlight', {color: '#C7F464'}, 2000);
+            $('#demo')
+            .parent().effect('highlight', {color: '#C7F464'}, 2000);
         }
     </script>
 </head>
