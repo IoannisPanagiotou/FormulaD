@@ -53,7 +53,7 @@ include("dbconnect.php");
 <h2>Click on the corresponding block to enter the data</h2>
 <br>
 
-<main class="grid-container">
+
 <div>
 <img id="circuit" src="Screen 1.png" width="839" height="531" alt="" usemap="#circuitmap" class="map">
 
