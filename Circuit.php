@@ -45,16 +45,6 @@ include("dbconnect.php");
             hdc.stroke();
         }
 
-        function drawRect(coOrdStr)
-        {
-            var mCoords = coOrdStr.split(',');
-            var top, left, bot, right;
-            left = mCoords[0];
-            top = mCoords[1];
-            right = mCoords[2];
-            bot = mCoords[3];
-            hdc.strokeRect(left,top,right-left,bot-top);
-        }
 
         function myHover(element)
         {
@@ -68,9 +58,6 @@ include("dbconnect.php");
                 case 'poly':
                     drawPoly(coordStr);
                     break;
-
-                case 'rect':
-                    drawRect(coordStr);
             }
         }
 
