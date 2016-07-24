@@ -33,7 +33,7 @@ include("dbconnect.php");
 
 <main class="grid-container">
 
-<img src="Screen 1.png" width="839" height="531" alt="Circuit" usemap="#circuitmap">
+<img id="circuit" src="Screen 1.png" width="839" height="531" alt="Circuit" usemap="#circuitmap">
 
 <map name="circuitmap">
     <area shape="rect" coords="0,0,82,126" alt="Sun" href="DataInput.php">
