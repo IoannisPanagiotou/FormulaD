@@ -20,6 +20,7 @@ include("dbconnect.php");
     />
     <script>
         function myFunction() {
+            document.getElementById("circuit").style.color = "#ff0000";
             alert("Hello World")
         }
     </script>
