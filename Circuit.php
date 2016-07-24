@@ -24,8 +24,7 @@ include("dbconnect.php");
             alert("Hello World")
         }
         function bigImg(x) {
-            x.style.height = "64px";
-            x.style.width = "64px";
+            x.style.color = "red";
         }
     </script>
 </head>
