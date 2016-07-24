@@ -38,9 +38,9 @@ include("dbconnect.php");
     <area shape="rect" coords="0,0,82,126" alt="Sun" href="DataInput.php">
     <area shape="circle" coords="90,58,3" alt="Mercury" href="DataInput.php">
     <area shape="circle" coords="124,58,8" alt="Venus" href="DataInput.php">
-    <area shape="poly" coords="271,177,267,185,282,191,284,184" alt="Block1" href="DataInput.php" id="area1"
+    <area shape="poly" coords="271,177,267,185,282,191,284,184" alt="Block1" href="DataInput.php" id="area1" class="area"
           onMouseOver="alert('square');return false"/>
-    <area shape="poly" coords="286,183,282,191,295,196,298,190" alt="Block2" id="area2"
+    <area shape="poly" coords="286,183,282,191,295,196,298,190" alt="Block2" id="area2" class="area"
           onClick="alert('Choice made!');return false"
           href="DataInput.php" />
 </map>
