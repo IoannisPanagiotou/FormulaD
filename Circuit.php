@@ -20,7 +20,7 @@ include("dbconnect.php");
     />
     <script>
         function myFunction() {
-            .parent().effect('highlight', {color: '#C7F464'}, 2000);
+            //.parent().effect('highlight', {color: '#C7F464'}, 2000);
             alert("Hello World")
         }
     </script>
@@ -40,7 +40,7 @@ include("dbconnect.php");
     <area shape="circle" coords="90,58,3" alt="Mercury" href="DataInput.php">
     <area shape="circle" coords="124,58,8" alt="Venus" href="DataInput.php">
     <area shape="poly" coords="271,177,267,185,282,191,284,184" alt="Block1" id="area1"
-           onmouseover="myFunction()"
+          onmouseover="myFunction()"
           href="DataInput.php" />
     <area shape="poly" coords="286,183,282,191,295,196,298,190" alt="Block2"
           onclick="myFunction()"
