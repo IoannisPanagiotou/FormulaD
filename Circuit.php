@@ -20,7 +20,6 @@ include("dbconnect.php");
     />
     <script>
         function myFunction() {
-            $('#circuitmap')
             .parent().effect('highlight', {color: '#C7F464'}, 2000);
         }
     </script>
