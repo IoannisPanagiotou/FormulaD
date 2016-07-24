@@ -132,7 +132,7 @@ include("dbconnect.php");
 <body onload='myInit()'>
 <canvas id='myCanvas'></canvas>
 <h2>Click on the corresponding block to enter the data</h2>
-<h3><p><a href="Help.php">Help</a></p></h3>
+<h3><a href="Help.php">Help</a></h3>
 <br>
 
 
