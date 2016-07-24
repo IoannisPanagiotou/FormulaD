@@ -1,11 +1,5 @@
 <?php
 include("dbconnect.php");
-/**
- * Created by PhpStorm.
- * User: dell user
- * Date: 21/7/2016
- * Time: 15:14
- */
 ?>
 <html>
 <head>
