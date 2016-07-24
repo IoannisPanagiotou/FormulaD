@@ -18,18 +18,25 @@ include("dbconnect.php");
         name="viewport"
         content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"
     />
-    <!--<script>
-        function myFunction() {
+    <script>
+        function makevisible(cur,which){
+            strength=(which==0)? 1 : 0.2
+            if (cur.style.MozOpacity)
+                cur.style.MozOpacity=strength
+            else if (cur.filters)
+                cur.filters.alpha.opacity=strength*100
+        }
+        /*function myFunction() {
             //.parent().effect('highlight', {color: '#C7F464'}, 2000);
             alert("Hello World")
-        }
-    </script>-->
-    <script type="text/javascript" src="http://davidlynch.org/projects/maphilight/jquery.maphilight.js">
+        }*/
+    </script>
+    <!--<script type="text/javascript" src="http://davidlynch.org/projects/maphilight/jquery.maphilight.js">
     jQuery(function()
     {
         jQuery('#circuit').maphilight();
     });
-    </script>
+    </script>-->
 </head>
 
 <body>
@@ -46,7 +53,8 @@ include("dbconnect.php");
     <area shape="circle" coords="90,58,3" alt="Mercury" href="DataInput.php">
     <area shape="circle" coords="124,58,8" alt="Venus" href="DataInput.php">
     <area shape="poly" coords="271,177,267,185,282,191,284,184" alt="Block1" href="DataInput.php"
-          data-maphilight="{'strokeColor':'0000ff','strokeWidth':5,'fillColor':'00ff00','fillOpacity':0.6}" />
+<!--          data-maphilight="{'strokeColor':'0000ff','strokeWidth':5,'fillColor':'00ff00','fillOpacity':0.6}" -->
+    style="filter:alpha(opacity=20);-moz-opacity:0.2" onMouseover="makevisible(this,0)" onMouseout="makevisible(this,1)" />
     <area shape="poly" coords="286,183,282,191,295,196,298,190" alt="Block2"
           onmouseover="myFunction()"
           href="DataInput.php" />
