@@ -18,18 +18,10 @@ include("dbconnect.php");
         name="viewport"
         content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"
     />
-    <script src="js/jquery.js"></script>
-    <script src="js/raphael.js"></script>
-    <script src="js/jquery.usmap.js"></script>
-    <script LANGUAGE="JavaScript" type="text/javascript">
-        $('#circuitmap').usmap({
-            // The click action
-            click: function(event, data) {
-                $('#clicked-state')
-                    .text('You clicked: '+data.name)
-                    .parent().effect('highlight', {color: '#C7F464'}, 2000);
-            }
-        });
+    <script>
+        function myFunction() {
+        .parent().effect('highlight', {color: '#C7F464'}, 2000);
+        }
     </script>
 </head>
 
@@ -46,10 +38,11 @@ include("dbconnect.php");
     <area shape="rect" coords="0,0,82,126" alt="Sun" href="DataInput.php">
     <area shape="circle" coords="90,58,3" alt="Mercury" href="DataInput.php">
     <area shape="circle" coords="124,58,8" alt="Venus" href="DataInput.php">
-    <area shape="poly" coords="271,177,267,185,282,191,284,184" alt="Block1" href="DataInput.php" class="area1"
-          href="DataInput.php"/>
-    <area shape="poly" coords="286,183,282,191,295,196,298,190" alt="Block2" class="area2"
-          onClick="alert('Choice made!');return true"
+    <area shape="poly" coords="271,177,267,185,282,191,284,184" alt="Block1"
+          id="demo" onmouseover="myFunction()"
+          href="DataInput.php" />
+    <area shape="poly" coords="286,183,282,191,295,196,298,190" alt="Block2"
+          onmouseover="writeText('The Sun and the gas giant planets like Jupiter are by far.')"
           href="DataInput.php" />
 </map>
 
