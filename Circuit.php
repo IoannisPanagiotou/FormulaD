@@ -18,17 +18,18 @@ include("dbconnect.php");
         name="viewport"
         content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"
     />
-    <script>
-        <script type="text/javascript" src="http://davidlynch.org/projects/maphilight/jquery.maphilight.js"></script>
+    <!--<script>
         function myFunction() {
             //.parent().effect('highlight', {color: '#C7F464'}, 2000);
             alert("Hello World")
         }
-    </script>
+    </script>-->
+    <script type="text/javascript" src="http://davidlynch.org/projects/maphilight/jquery.maphilight.js">
     jQuery(function()
     {
         jQuery('#circuitmap').maphilight();
     });
+    </script>
 </head>
 
 <body>
