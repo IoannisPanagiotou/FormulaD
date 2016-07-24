@@ -20,5 +20,8 @@
 </head>
 <body>
 Help
+<footer>
+    <p>(c) 2016 Yannis Panagiotou</p>
+</footer>
 </body>
 </html>
