@@ -165,7 +165,9 @@ include("dbconnect.php");
 
     <area shape="poly" coords="286,183,282,191,295,196,298,190" alt="Block2" href="DataInput.php" />
     <area shape="poly" onmouseover='myHover(this);' onmouseout='myLeave();' coords="291,206,287,215,300,221,305,213" alt="" href="DataInput.php"/>
-<!--          onmouseover="myFunction()"-->
+    <area shape="poly" onmouseover='myHover(this);' onmouseout='myLeave();' coords="327,202,322,210,339,209,337,216" alt="" href="DataInput.php"/>
+
+    <!--          onmouseover="myFunction()"-->
 
 </map>
 
