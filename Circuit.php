@@ -18,11 +18,11 @@ include("dbconnect.php");
         name="viewport"
         content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"
     />
-    <script LANGUAGE="JavaScript" type="text/javascript">
+    <!--<script LANGUAGE="JavaScript" type="text/javascript">
         function update(t) {
             document.form1.text1.value = t;
         }
-    </script>
+    </script>-->
 </head>
 
 <body>
@@ -38,10 +38,7 @@ include("dbconnect.php");
     <area shape="rect" coords="0,0,82,126" alt="Sun" href="DataInput.php">
     <area shape="circle" coords="90,58,3" alt="Mercury" href="DataInput.php">
     <area shape="circle" coords="124,58,8" alt="Venus" href="DataInput.php">
-    <area shape="poly" coords="271,177,267,185,282,191,284,184" alt="Block1"
-          onClick="update('service')"
-          onMouseOver="window.status='Service Department'; return true"
-          href="DataInput.php" />
+    <area shape="poly" coords="271,177,267,185,282,191,284,184" alt="Block1" href="DataInput.php" onClick="alert('square');return false"/>
     <area shape="poly" coords="286,183,282,191,295,196,298,190" alt="Block2"
           onmouseover="writeText('The Sun and the gas giant planets like Jupiter are by far.')"
           href="DataInput.php" />
