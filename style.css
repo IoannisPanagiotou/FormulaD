@@ -13,6 +13,12 @@ h2 {
     font-size: 20px;
     font-family: 'Indie Flower', cursive;
 }
+h3 {
+    color: black;
+    font-size: 14px;
+    font-family: 'Indie Flower', cursive;
+    float: right;
+}
 a {
     text-decoration:none
 }
