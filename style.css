@@ -19,7 +19,7 @@ h3 {
     font-family: 'Indie Flower', cursive;
 }
 p {
-    float: right;
+    right: 320px;
 }
 a {
     text-decoration:none
