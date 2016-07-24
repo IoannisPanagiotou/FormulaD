@@ -21,6 +21,7 @@ h3 {
     background-color: pink;
     position: absolute;
     border: 3px solid #8AC007;
+    height: auto;
     right: 120px;
 }
 
