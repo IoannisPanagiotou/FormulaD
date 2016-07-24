@@ -19,8 +19,8 @@ include("dbconnect.php");
         content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"
     />
     <script>
-        hover: function myFunction() {
-            $('#circuit')
+        function myFunction() {
+            $('#circuitmap')
             .parent().effect('highlight', {color: '#C7F464'}, 2000);
         }
     </script>
@@ -43,7 +43,7 @@ include("dbconnect.php");
           onmouseover="myFunction()"
           href="DataInput.php" />
     <area shape="poly" coords="286,183,282,191,295,196,298,190" alt="Block2"
-          onmouseover="writeText('The Sun and the gas giant planets like Jupiter are by far.')"
+          onclick="myFunction()"
           href="DataInput.php" />
 </map>
 
