@@ -33,7 +33,7 @@ footer {
 }
 
 img:hover {
-    background-color: yellow;          
+    background-color: yellow;
     opacity: 0.2;
     filter: alpha(opacity=20);
 }
