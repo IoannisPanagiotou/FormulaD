@@ -32,18 +32,13 @@ footer {
     font-size: 11px;
 }
 
-canvas
-{
-    pointer-events: none;       /* make the canvas transparent to the mouse - needed since canvas is position infront of image */
-    position: absolute;
-}
-/*area:hover {
-    background-color: yellow;           !* Yellow Highlight On Hover *!
+img:hover {
+    background-color: yellow;          
     opacity: 0.2;
     filter: alpha(opacity=20);
-}*/
-/*
-.area1:hover, .area2:hover {
+}
+
+area#area1:hover {
     color:red;
     opacity:0.8;
-}*/
+}
