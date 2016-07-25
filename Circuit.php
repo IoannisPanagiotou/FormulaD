@@ -39,7 +39,7 @@ include("dbconnect.php");
 <main>
 <img id='img1' src="Screen 1.png" width="839" height="531" alt="" usemap="#circuitmap" class="map">
 
-<map id='img' name="circuitmap">
+<map id='map1' name="circuitmap">
     <area shape="poly" coords="271,177,267,185,282,191,284,184" alt="" href="DataInput.php"/>
 <!--          style="outline:none;" target="_self" data-maphilight='{"stroke":false,"fillColor":"cbf68c","fillOpacity":0.6}'-->
 <!--          data-maphilight="{'strokeColor':'0000ff','strokeWidth':5,'fillColor':'00ff00','fillOpacity':0.6}" -->
