@@ -38,7 +38,7 @@ img:hover {
     filter: alpha(opacity=20);
 }*/
 
-.area1:hover {
+#area1:hover {
     background-color: yellow;
     opacity: 0.2;
     filter: alpha(opacity=20);
