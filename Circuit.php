@@ -21,13 +21,7 @@ include("dbconnect.php");
             return confirm('Are you sure you want to choose this block?')
         }
         </script>
-
-   <!-- <script type="text/javascript" src="http://davidlynch.org/projects/maphilight/jquery.maphilight.js">
-    jQuery(function()
-    {
-        jQuery('#circuit').maphilight();
-    });
-    </script>-->
+    
 </head>
 
 <body>
