@@ -16,8 +16,9 @@ include("dbconnect.php");
 
         <script>
         function myFunction() {
-            document.getElementById('img1').src = 'http://www.xul.fr/images/collar.jpg'
-            alert("Hello World")
+//            document.getElementById('img1').src = 'http://www.xul.fr/images/collar.jpg'
+//            alert("Hello World")
+            return confirm('Are you sure you want to choose this block?')
         }
         </script>
 
@@ -53,7 +54,7 @@ include("dbconnect.php");
     <!--          onmouseover="myFunction()"-->
 
 </map>
-   
+
 </main>
 
 <footer>
