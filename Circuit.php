@@ -13,6 +13,13 @@ include("dbconnect.php");
         content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"
     />
     <script>
+    var area = document.getElementsByTagName('area')[0];
+    area.onclick = function() {
+        alert("Hello")
+    return false; // returning false stops the link being followed
+    }
+    </script>
+    <!--<script>
 
         // stores the device context of the canvas we use to draw the outlines
         // initialized in myInit, used in myHover and myLeave
@@ -98,7 +105,7 @@ include("dbconnect.php");
             hdc.strokeStyle = 'red';
             hdc.lineWidth = 2;
         }
-    </script>
+    </script>-->
     <!--<script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="jquery.maphilight.min.js"></script>
     <script type="text/javascript">
