@@ -18,6 +18,10 @@ include("dbconnect.php");
         function myFunction() {
             alert("Hello World")
         }
+        function Function()
+        {
+            document.getElementById('img1').src='http://www.xul.fr/images/asin1.jpg';
+        }
         </script>
 
    <!-- <script type="text/javascript" src="http://davidlynch.org/projects/maphilight/jquery.maphilight.js">
@@ -36,15 +40,16 @@ include("dbconnect.php");
 
 
 <main>
-<img id='img-imgmap201293016112' src="Screen 1.png" width="839" height="531" alt="" usemap="#circuitmap" class="map">
+<img id='img1' src="Screen 1.png" width="839" height="531" alt="" usemap="#circuitmap" class="map">
 
-<map id='img-imgmap201293016112' name="circuitmap">
-    <area shape="poly" onclick='myFunction();'  coords="271,177,267,185,282,191,284,184" alt="" href="DataInput.php"/>
+<map id='img1' name="circuitmap">
+    <area shape="poly" onclick="document.getElementById('img1').src = 'http://www.xul.fr/images/collar.jpg'"  coords="271,177,267,185,282,191,284,184" alt="" href="javascript:void(0)"/>
 <!--          style="outline:none;" target="_self" data-maphilight='{"stroke":false,"fillColor":"cbf68c","fillOpacity":0.6}'-->
 <!--          data-maphilight="{'strokeColor':'0000ff','strokeWidth':5,'fillColor':'00ff00','fillOpacity':0.6}" -->
 <!--    style="filter:alpha(opacity=20);-moz-opacity:0.2" onMouseover="makevisible(this,0)" onMouseout="makevisible(this,1)" -->
 
-    <area shape="poly" coords="286,183,282,191,295,196,298,190" alt="Block2" href="DataInput.php" />
+    <area shape="poly" oncick="javascript:(Function(){
+    document.getElementById('img1').src='http://www.xul.fr/images/asin1.jpg';})()" coords="286,183,282,191,295,196,298,190" alt="Block2" href="DataInput.php" />
     <area shape="poly"  coords="291,206,287,215,300,221,305,213" alt="" href="DataInput.php"/>
     <area shape="poly"  coords="327,202,322,210,339,209,337,216" alt="" href="DataInput.php"/>
 
