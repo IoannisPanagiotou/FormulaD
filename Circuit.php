@@ -18,7 +18,7 @@ include("dbconnect.php");
         function myFunction() {
 //            document.getElementById('img1').src = 'http://www.xul.fr/images/collar.jpg'
 //            alert("Hello World")
-            document.getElementById("area1").style.backgroundColor ='#FFFFFF';
+            document.getElementById("area1").style.backgroundColor ='yellow';
             return confirm('Are you sure you want to choose this block?')
         }
         </script>
