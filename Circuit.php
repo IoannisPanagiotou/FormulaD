@@ -37,6 +37,7 @@ include("dbconnect.php");
 
 
 <main>
+    <div id="page">
 <img id='img1' src="Screen 1.png" width="839" height="531" alt="" usemap="#circuitmap" class="map">
 
 <map id='map1' name="circuitmap">
@@ -52,7 +53,7 @@ include("dbconnect.php");
     <!--          onmouseover="myFunction()"-->
 
 </map>
-
+    </div>
 </main>
 
 <footer>
