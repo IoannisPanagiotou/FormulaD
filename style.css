@@ -39,6 +39,7 @@ img:hover {
 }*/
 
 area#area1:hover {
-    color:red;
-    opacity:0.8;
+    background-color: yellow;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
 }
