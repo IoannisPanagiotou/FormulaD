@@ -23,9 +23,11 @@
 <h2>Please follow the instructions to use this tool</h2>
 
 
-<img id='img1' src="Screen 1.png" width="400" height="400" alt="" >
+<img id='img1' src="Screen 1.png" width="400" height="300" alt="" >
 
-<br>
+<img id='img1' src="Screen 2.png" width="400" height="300" alt="" >
+
+<br><br><br>
 <a href="Circuit.php" title="Back to the Home page"><b>HOME</b></a> | <a href="#" title="To the top of this page"><b>BACK TO TOP</b></a>
 <footer>
     <p>(c) 2016 Yannis Panagiotou</p>
