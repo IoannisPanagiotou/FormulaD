@@ -23,13 +23,13 @@
 <h2>Please follow the instructions to use this tool</h2>
 
 <img id='img1' src="Screen 1.png" width="400" height="300" alt="" >
-<br><br>
+<br><br><br>
 Choose your current position on the circuit
 <img id='img1' src="Screen 2.png" width="400" height="300" alt="" >
-<br><br>
+<br><br><br>
 Enter your current gear and remaining Wear Points
 <img id='img1' src="Screen 3.png" width="400" height="300" alt="" >
-<br><br>
+<br><br><br>
 Here we go...! Check out the available options!
 <img id='img1' src="Screen 5.png" width="400" height="300" alt="" >
 
