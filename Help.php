@@ -19,7 +19,12 @@
     />
 </head>
 <body>
-Help
+
+<h2>Please follow the instructions to use this tool</h2>
+
+
+<img id='img1' src="Screen 1.png" width="400" height="400" alt="" >
+
 <br>
 <a href="Circuit.php" title="Back to the Home page"><b>HOME</b></a> | <a href="#" title="To the top of this page"><b>BACK TO TOP</b></a>
 <footer>
