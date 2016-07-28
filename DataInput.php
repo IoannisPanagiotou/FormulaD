@@ -15,6 +15,7 @@ include("dbconnect.php");
 </head>
 <body>
 <h2>Please enter the following details:</h2>
+<h3><a href="Help.php">Help</a></h3>
     <br>
 <?php /*if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 */?>

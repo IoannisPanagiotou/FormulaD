@@ -15,6 +15,7 @@ include("dbconnect.php");
 </head>
 <body>
 <h2>Please see the following results:</h2>
+<h3><a href="Help.php">Help</a></h3>
     <br>
 
 <content id="con">
