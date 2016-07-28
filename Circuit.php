@@ -38,12 +38,12 @@ include("dbconnect.php");
 <img id='img1' src="Screen 1.png" width="839" height="531" alt="" usemap="#circuitmap" class="map">
 
 <map id='map1' name="circuitmap">
-    <area id="area1" shape="poly" onclick="myFunction()" coords="271,177,267,185,282,191,284,184" alt="" href="DataInput.php"/>
+    <area id="area1" shape="poly" onclick="myFunction()" coords="271,177,267,185,282,191,284,184" alt="" href="DataInput.php?min=2&max=8"/>
 <!--          style="outline:none;" target="_self" data-maphilight='{"stroke":false,"fillColor":"cbf68c","fillOpacity":0.6}'-->
 <!--          data-maphilight="{'strokeColor':'0000ff','strokeWidth':5,'fillColor':'00ff00','fillOpacity':0.6}" -->
 <!--    style="filter:alpha(opacity=20);-moz-opacity:0.2" onMouseover="makevisible(this,0)" onMouseout="makevisible(this,1)" -->
 
-    <area class="area" shape="poly" coords="286,183,282,191,295,196,298,190" alt="Block2" href="DataInput.php" />
+    <area class="area" shape="poly" coords="286,183,282,191,295,196,298,190" alt="Block2" href="DataInput.php?min=3&max=9" />
     <area shape="poly"  coords="291,206,287,215,300,221,305,213" style="outline:none;" target="_self" alt="" href="DataInput.php"/>
     <area shape="poly"  coords="327,202,322,210,339,209,337,216" alt="" href="DataInput.php"/>
 

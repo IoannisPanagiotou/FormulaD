@@ -29,8 +29,10 @@ include("dbconnect.php");
             $availWP = $_POST["WP"];
             $corner=0;
             $prob=$row["Probability"];
-            $max=$row["maximum"];
-            $min=$row["minimum"];
+           // $max=$row["maximum"];
+           // $min=$row["minimum"];
+            $min=$_GET["min"];
+            $max=$_GET["max"];
 
             echo "<li><pre>Gear  Number  CornerHit  WearPoints  Probability</pre></li>";
 
