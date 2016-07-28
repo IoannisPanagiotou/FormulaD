@@ -33,7 +33,7 @@ include("dbconnect.php");
            // $min=$row["minimum"];
             $min=$_GET["min"];
             $max=$_GET["max"];
-echo "$min $max";
+            echo "{$min} {$max}";
             echo "<li><pre>Gear  Number  CornerHit  WearPoints  Probability</pre></li>";
 
             for ($i=1;$i<=($gear+1);$i++) {
