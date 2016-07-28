@@ -31,7 +31,7 @@ include("dbconnect.php");
             $max=$row["maximum"];
             $min=$row["minimum"];
 
-            echo "<li>Gear Number CornerHit WearPoints Probability</li>";
+            echo "<li><pre>Gear  Number  CornerHit  WearPoints  Probability</pre></li>";
 
             for ($i=1;$i<=($gear+1);$i++) {
                 if ($i == 1) {
@@ -49,7 +49,7 @@ include("dbconnect.php");
                                 $WPO = 0;
                             }
                             $WP = $WPA + $WPO;
-                            echo "<li><pre>{$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</pre></li>";
+                            echo "<li><pre>  {$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</pre></li>";
                             $corner=0;
                         }
                     }
@@ -68,7 +68,7 @@ include("dbconnect.php");
                             $WPO=0;
                         }
                         $WP=$WPA+$WPO;
-                        echo "<li><pre>{$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</pre></li>";
+                        echo "<li><pre>  {$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</pre></li>";
                         $corner=0;
                     }
                 }
@@ -86,7 +86,7 @@ include("dbconnect.php");
                             $WPO=0;
                         }
                         $WP=$WPA+$WPO;
-                        echo "<li><pre>{$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</pre></li>";
+                        echo "<li><pre>  {$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</pre></li>";
                         $corner=0;
                     }
                 }
@@ -104,7 +104,7 @@ include("dbconnect.php");
                             $WPO=0;
                         }
                         $WP=$WPA+$WPO;
-                        echo "<li><pre>{$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</pre></li>";
+                        echo "<li><pre>  {$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</pre></li>";
                         $corner=0;
                     }
                 }
@@ -122,7 +122,7 @@ include("dbconnect.php");
                             $WPO=0;
                         }
                         $WP=$WPA+$WPO;
-                        echo "<li><pre>{$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</pre></li>";
+                        echo "<li><pre>  {$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</pre></li>";
                         $corner=0;
                     }
                 }
@@ -140,7 +140,7 @@ include("dbconnect.php");
                             $WPO=0;
                         }
                         $WP=$WPA+$WPO;
-                        echo "<li><pre>{$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</pre></li>";
+                        echo "<li><pre>  {$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</pre></li>";
                         $corner=0;
                     }
                 }
