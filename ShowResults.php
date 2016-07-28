@@ -26,6 +26,7 @@ include("dbconnect.php");
         while ($row = $result->fetch_array())
         {
             $gear = $_POST["gear"];
+            $availWP = $_POST["WP"];
             $corner=0;
             $prob=$row["Probability"];
             $max=$row["maximum"];
@@ -49,8 +50,10 @@ include("dbconnect.php");
                                 $WPO = 0;
                             }
                             $WP = $WPA + $WPO;
-                            echo "<li><pre>  {$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</pre></li>";
-                            $corner=0;
+                            if ($availWP>$WP) {
+                                echo "<li><pre>  {$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</pre></li>";
+                                $corner = 0;
+                            }
                         }
                     }
                 }
