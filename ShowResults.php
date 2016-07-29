@@ -56,7 +56,7 @@ include("dbconnect.php");
                             $WP = $WPA + $WPO;
                             if ($availWP>$WP) {
                                 if ($WP==0){
-                                    echo "<li><pre><strong>{$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</strong></pre></li>";
+                                    echo "<li><pre><strong>  {$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</strong></pre></li>";
                                 }
                                 else {
                                     echo "<li><pre>  {$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</pre></li>";
@@ -82,7 +82,7 @@ include("dbconnect.php");
                         $WP=$WPA+$WPO;
                         if ($availWP>$WP) {
                             if ($WP==0){
-                                echo "<li><pre><strong>{$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</strong></pre></li>";
+                                echo "<li><pre><strong>  {$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</strong></pre></li>";
                             }
                             else {
                                 echo "<li><pre>  {$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</pre></li>";
@@ -107,7 +107,7 @@ include("dbconnect.php");
                         $WP=$WPA+$WPO;
                         if ($availWP>$WP) {
                             if ($WP==0){
-                                echo "<li><pre><strong>{$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</strong></pre></li>";
+                                echo "<li><pre><strong>  {$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</strong></pre></li>";
                             }
                             else {
                                 echo "<li><pre>  {$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</pre></li>";
@@ -132,7 +132,7 @@ include("dbconnect.php");
                         $WP=$WPA+$WPO;
                         if ($availWP>$WP) {
                             if ($WP==0){
-                                echo "<li><pre><strong>{$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</strong></pre></li>";
+                                echo "<li><pre><strong>  {$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</strong></pre></li>";
                             }
                             else {
                                 echo "<li><pre>  {$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</pre></li>";
@@ -157,7 +157,7 @@ include("dbconnect.php");
                         $WP=$WPA+$WPO;
                         if ($availWP>$WP) {
                             if ($WP==0){
-                                echo "<li><pre><strong>{$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</strong></pre></li>";
+                                echo "<li><pre><strong>  {$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</strong></pre></li>";
                             }
                             else {
                                 echo "<li><pre>  {$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</pre></li>";
@@ -182,7 +182,7 @@ include("dbconnect.php");
                         $WP=$WPA+$WPO;
                         if ($availWP>$WP) {
                             if ($WP==0){
-                                echo "<li><pre><strong>{$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</strong></pre></li>";
+                                echo "<li><pre><strong>  {$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</strong></pre></li>";
                             }
                             else {
                                 echo "<li><pre>  {$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</pre></li>";
