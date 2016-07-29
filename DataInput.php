@@ -27,7 +27,11 @@ include("dbconnect.php");
         <input type="submit" name="submit" value="Proceed" />
     </form>
 
-<?/*}
+<?
+$min=$_GET["min"];
+
+$max=$_GET["max"];
+/*}
 elseif($_SERVER['REQUEST_METHOD'] === 'POST'){
     $gear = $_POST["gear"];
     $corner;
