@@ -35,7 +35,7 @@ include("dbconnect.php");
             $max=$_REQUEST["max"];
             echo $min;
             echo $max;
-            echo "<li><pre>Gear  Number  CornerHit  WearPoints  Probability</pre></li>";
+            echo "<li><pre>Gear  Number  CornerHit  WPcorner  WPshortshift  TotalWearPoints  Probability</pre></li>";
 
             for ($i=1;$i<=($gear+1);$i++) {
                 if ($i == 1) {
@@ -44,8 +44,8 @@ include("dbconnect.php");
                             if ($min<=$j&&$j<=$max){
                                 $corner=1;
                             }
-                            $WPA = $gear - $i - 1;
-                            $WPO = $j - $max;
+                            $WPA = $gear - $i - 1; //added for short shift
+                            $WPO = $j - $max; //not hitting the corner
                             if ($WPA < 0) {
                                 $WPA = 0;
                             }
