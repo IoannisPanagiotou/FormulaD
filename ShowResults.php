@@ -21,14 +21,14 @@ include("dbconnect.php");
 <content id="con">
     <ul>
         <?
-        $sql_query = "select * from Results";
+        /*$sql_query = "select * from Results";
         $result = $db->query($sql_query);
-        while ($row = $result->fetch_array())
+        while ($row = $result->fetch_array())*/
         {
             $gear = $_POST["gear"];
             $availWP = $_POST["WP"];
             $corner=0;
-            $prob=$row["Probability"];
+           //$prob=$row["Probability"];
            // $max=$row["maximum"];
            // $min=$row["minimum"];
             $min=$_POST["min"];
