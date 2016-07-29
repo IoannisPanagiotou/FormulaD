@@ -32,7 +32,6 @@ include("dbconnect.php");
            // $max=$row["maximum"];
            // $min=$row["minimum"];
             $min=$_POST["min"];
-            echo "<br>";
             $max=$_POST["max"];
             echo $min;
             echo "<br>";
