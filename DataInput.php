@@ -24,13 +24,13 @@ include("dbconnect.php");
         <input type="number" name="gear" min="1" max="6" step="1" placeholder="Current Gear" required/><br><br>
         <label>Wear Points:</label><br>
         <input type="number" name="WP" min="1" max="18" step="1" placeholder="Wear Points" required/><br><br>
+        <input type="hidden" name="min" value="<?php $_GET["min"]; ?>">
+        <input type="hidden" name="max" value="<?php $_GET["max"]; ?>">
         <input type="submit" name="submit" value="Proceed" />
     </form>
 
 <?
-$min=$_GET["min"];
 
-$max=$_GET["max"];
 /*}
 elseif($_SERVER['REQUEST_METHOD'] === 'POST'){
     $gear = $_POST["gear"];
