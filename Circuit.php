@@ -23,7 +23,7 @@ include("dbconnect.php");
             return confirm('Are you sure you want to choose this block?')
         }
         </script>
-    
+
     <script type="text/javascript">
         $( document ).ready(function() {
             // let's Hide Items
@@ -50,10 +50,10 @@ include("dbconnect.php");
 <body>
 
 <div class="cc-contactpop fixed">
-    <h1>Do you need Help? <span>Get in touch.</span></h1>
+    <h1>Do you like this app? <span>Rate us!</span></h1>
     <div class="renseignement">
         <i class="fa fa-times"></i>
-        <p>If you’d like to send us feedback, want to be become an author or have any other question/query, please fill out the form below and we will get back to you as soon as possible. </p>
+        <p>If you’d like to send us feedback or have any question, please let us know how well we did! </p>
     </div>
     <form method="post">
         <div class="form-group">
