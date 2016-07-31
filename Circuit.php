@@ -73,7 +73,7 @@ include("dbconnect.php");
     <h1>Do you like this app? <span>Rate us!</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[X]</h1>
     <div class="renseignement">
         <i class="fa fa-times"></i>
-        <p>If you’d like to send us feedback or have any question, please let us know how well we did! </p>
+        <p>Whether you like our app or not, please let us know how well we did! </p>
     </div>
     <form method="post">
         <div class="form-group">
