@@ -165,8 +165,6 @@ img map area:hover {
     pointer-events: none;
 }
 
-
-
 .modalDialog:target {
     opacity:1;
     pointer-events: auto;
@@ -183,8 +181,6 @@ img map area:hover {
     background: -webkit-linear-gradient(#fff, #999);
     background: -o-linear-gradient(#fff, #999);
 }
-
-
 
 .close {
     background: #606061;
