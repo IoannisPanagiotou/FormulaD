@@ -61,8 +61,7 @@ include("dbconnect.php");
         <p>Whether you like our app or not, please let us know how well we did! </p>
     </div>
 
-    <form method="post">
-        <span class="rating">
+    <span class="rating">
         <input type="radio" class="rating-input"
                id="rating-input-1-5" name="rating-input-1"/>
         <label for="rating-input-1-5" class="rating-star"></label>
@@ -78,9 +77,9 @@ include("dbconnect.php");
         <input type="radio" class="rating-input"
                id="rating-input-1-1" name="rating-input-1"/>
         <label for="rating-input-1-1" class="rating-star"></label>
-</span>
-        <button type="submit">Submit</button>
-    </form>
+    </span>
+
+
 </div>
 
 <h2>Click on the corresponding block to enter the data</h2>
