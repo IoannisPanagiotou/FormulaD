@@ -60,38 +60,35 @@ include("dbconnect.php");
         <i class="fa fa-times"></i>
         <p>Whether you like our app or not, please let us know how well we did! </p>
     </div>
-<span class="rating">
-        <input type="radio" class="rating-input"
+
+    <form method="post">
+        <span class="rating">
+            <input type="radio" class="rating-input"
                id="rating-input-1-5" name="rating-input-1"/>
         <label for="rating-input-1-5" class="rating-star"></label>
-        <input type="radio" class="rating-input"
+        </span>
+        <span class="rating">
+            <input type="radio" class="rating-input"
                id="rating-input-1-4" name="rating-input-1"/>
         <label for="rating-input-1-4" class="rating-star"></label>
-        <input type="radio" class="rating-input"
+        </span>
+        <span class="rating">
+            <input type="radio" class="rating-input"
                id="rating-input-1-3" name="rating-input-1"/>
         <label for="rating-input-1-3" class="rating-star"></label>
-        <input type="radio" class="rating-input"
+        </span>
+        <span class="rating">
+            <input type="radio" class="rating-input"
                id="rating-input-1-2" name="rating-input-1"/>
         <label for="rating-input-1-2" class="rating-star"></label>
-        <input type="radio" class="rating-input"
+        </span>
+        <span class="rating">
+            <input type="radio" class="rating-input"
                id="rating-input-1-1" name="rating-input-1"/>
         <label for="rating-input-1-1" class="rating-star"></label>
-</span>
-    <!--<form method="post">
-        <div class="form-group">
-            <input type="text" name="name" placeholder="Your name"/>
-        </div>
-        <div class="form-group">
-            <input type="email" name="email" placeholder="E-mail"/>
-        </div>
-        <div class="form-group">
-            <input type="text" name="phone" placeholder="Phone number"/>
-        </div>
-        <div class="form-group">
-            <textarea id="message" type="text" placeholder="Message"></textarea>
-        </div>
+        </span>
         <button type="submit">Submit</button>
-    </form>-->
+    </form>
 </div>
 
 <h2>Click on the corresponding block to enter the data</h2>
