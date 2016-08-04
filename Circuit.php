@@ -60,13 +60,7 @@ include("dbconnect.php");
             $('input:radio').change(
                 function(){
                     var userRating = this.value;
-                    if (userRating<3){
-                        alert("Thank you for rating us! We hope you'll like us more next time!!");
-                    }
-                    else{
-                        alert("Thank you very much!!!");
-                    }
-                    }
+                    alert(userRating);
                 });
         });
     </script>
