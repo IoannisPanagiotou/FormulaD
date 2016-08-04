@@ -60,8 +60,15 @@ include("dbconnect.php");
         <i class="fa fa-times"></i>
         <p>Whether you like our app or not, please let us know how well we did! </p>
     </div>
-    <div class="rating">
-        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+    <div class="starRate">
+        <div>Currently rated: 3 stars<b></b></div>
+        <ul>
+            <li><a href="#"><span>Give it 5 stars</span></a></li>
+            <li><a href="#"><span>Give it 4 stars</span></a></li>
+            <li><a href="#"><span>Give it 3 stars</span><b></b></a></li>
+            <li><a href="#"><span>Give it 2 stars</span></a></li>
+            <li><a href="#"><span>Give it 1 star</span></a></li>
+        </ul>
     </div>
     <!--<form method="post">
         <div class="form-group">
