@@ -61,7 +61,7 @@ include("dbconnect.php");
         <p>Whether you like our app or not, please let us know how well we did! </p>
     </div>
 
-    <form method="post">
+    <form method="post" action="Questionnaire.php">
         <span class="rating">
         <input type="radio" class="rating-input"
                id="rating-input-1-5" name="rating-input-1"/>
