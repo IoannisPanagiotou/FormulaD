@@ -54,12 +54,6 @@ include("dbconnect.php");
 <body>
 
 
-
-
-
-
-
-
 <div class="cc-contactpop fixed">
     <h1>Do you like this app? <span>Rate us!</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[X]</h1>
     <div class="renseignement">
@@ -85,8 +79,6 @@ include("dbconnect.php");
 
 <h2>Click on the corresponding block to enter the data</h2>
 <h3><a href="Help.php">Help</a></h3>
-<br>
-
 
 <main>
 
