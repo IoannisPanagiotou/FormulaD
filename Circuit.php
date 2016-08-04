@@ -104,7 +104,7 @@ include("dbconnect.php");
         <div>
             <a href="#close" title="Close" class="close">X</a>
             <h2>Take part in our survey!</h2>
-            <p>It won't take long! Please fill the questionnaire!</p>
+            <p>It won't take long! Please fill the questionnaire by clicking below...</p>
             <h4><a href="Questionnaire.php">Questionnaire</a></h4>
         </div>
     </div>
