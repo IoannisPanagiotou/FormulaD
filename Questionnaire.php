@@ -15,11 +15,7 @@ include("dbconnect.php");
 </head>
 <body>
 
-<?php
-$rating=$_POST["rating-input-1"];
-echo $rating;
-echo "<br>";
-?>
+
 
 <h2>Please answer the following questions:</h2>
 <h3><a href="Help.php">Help</a></h3>
