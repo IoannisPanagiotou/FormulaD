@@ -60,7 +60,10 @@ include("dbconnect.php");
         <i class="fa fa-times"></i>
         <p>Whether you like our app or not, please let us know how well we did! </p>
     </div>
-    <form method="post">
+    <div class="rating">
+        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+    </div>
+    <!--<form method="post">
         <div class="form-group">
             <input type="text" name="name" placeholder="Your name"/>
         </div>
@@ -74,7 +77,7 @@ include("dbconnect.php");
             <textarea id="message" type="text" placeholder="Message"></textarea>
         </div>
         <button type="submit">Submit</button>
-    </form>
+    </form>-->
 </div>
 
 <h2>Click on the corresponding block to enter the data</h2>
