@@ -98,7 +98,7 @@ include("dbconnect.php");
 
 </map>
 
-    <a href="#openModal">Please participate in our survey!</a>
+    <a href="#openModal">Please participate in our survey after finishing the play!</a>
 
     <div id="openModal" class="modalDialog">
         <div>
