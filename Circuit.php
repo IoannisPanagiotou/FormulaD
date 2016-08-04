@@ -47,24 +47,7 @@ include("dbconnect.php");
     </script>
 
 
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-//  Check Radio-box
-            $(".rating input:radio").attr("checked", false);
-            $('.rating input').click(function () {
-                $(".rating span").removeClass('checked');
-                $(this).parent().addClass('checked');
-            });
-
-            $('input:radio').change(
-                function(){
-                    var userRating = this.value;
-                    alert(userRating);
-                });
-        });
-    </script>
-
+    
 
 </head>
 
@@ -76,13 +59,23 @@ include("dbconnect.php");
     <div class="renseignement">
         <i class="fa fa-times"></i>
         <p>Whether you like our app or not, please let us know how well we did! </p>
-        <div class="rating">
-            <span><input type="radio" name="rating" id="str5" value="5"><label for="str5"></label></span>
-            <span><input type="radio" name="rating" id="str4" value="4"><label for="str4"></label></span>
-            <span><input type="radio" name="rating" id="str3" value="3"><label for="str3"></label></span>
-            <span><input type="radio" name="rating" id="str2" value="2"><label for="str2"></label></span>
-            <span><input type="radio" name="rating" id="str1" value="1"><label for="str1"></label></span>
-        </div>
+        <span class="rating">
+    <input type="radio" class="rating-input"
+           id="rating-input-1-5" name="rating-input-1">
+    <label for="rating-input-1-5" class="rating-star"></label>
+    <input type="radio" class="rating-input"
+           id="rating-input-1-4" name="rating-input-1">
+    <label for="rating-input-1-4" class="rating-star"></label>
+    <input type="radio" class="rating-input"
+           id="rating-input-1-3" name="rating-input-1">
+    <label for="rating-input-1-3" class="rating-star"></label>
+    <input type="radio" class="rating-input"
+           id="rating-input-1-2" name="rating-input-1">
+    <label for="rating-input-1-2" class="rating-star"></label>
+    <input type="radio" class="rating-input"
+           id="rating-input-1-1" name="rating-input-1">
+    <label for="rating-input-1-1" class="rating-star"></label>
+</span>
     </div>
 
     <!--<form method="post">
