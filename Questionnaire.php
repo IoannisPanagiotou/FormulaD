@@ -98,7 +98,7 @@ include("dbconnect.php");
         </tr>
         <tr>
             <td>9. I felt very confident using the system</td>
-            <td><input type="radio" name="q9" value="1" ></td>
+            <td><input type="radio" name="q9" value="1" required></td>
             <td><input type="radio" name="q9" value="2"></td>
             <td><input type="radio" name="q9" value="3"></td>
             <td><input type="radio" name="q9" value="4"></td>
