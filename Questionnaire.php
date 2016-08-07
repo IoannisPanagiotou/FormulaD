@@ -26,7 +26,6 @@ include("dbconnect.php");
     <table id="t01">
         <tr>
             <th>Question</th>
-            <th>0</th>
             <th>1</th>
             <th>2</th>
             <th>3</th>
@@ -50,7 +49,63 @@ include("dbconnect.php");
             <td><input type="radio" name="q2" value="5"></td>
         </tr>
         <tr>
-            <td>1. I think that I would like to use this system frequently</td>
+            <td>3. I thought the system was easy to use</td>
+            <td><input type="radio" name="q3" value="1" ></td>
+            <td><input type="radio" name="q3" value="2"></td>
+            <td><input type="radio" name="q3" value="3"></td>
+            <td><input type="radio" name="q3" value="4"></td>
+            <td><input type="radio" name="q3" value="5"></td>
+        </tr>
+        <tr>
+            <td>4. I think that I would need the support of a technical person to be able to use this system</td>
+            <td><input type="radio" name="q3" value="1" ></td>
+            <td><input type="radio" name="q3" value="2"></td>
+            <td><input type="radio" name="q3" value="3"></td>
+            <td><input type="radio" name="q3" value="4"></td>
+            <td><input type="radio" name="q3" value="5"></td>
+        </tr>
+        <tr>
+            <td>5. I found the various functions in this system were well integrated</td>
+            <td><input type="radio" name="q3" value="1" ></td>
+            <td><input type="radio" name="q3" value="2"></td>
+            <td><input type="radio" name="q3" value="3"></td>
+            <td><input type="radio" name="q3" value="4"></td>
+            <td><input type="radio" name="q3" value="5"></td>
+        </tr>
+        <tr>
+            <td>6. I thought there was too much inconsistensy in this system</td>
+            <td><input type="radio" name="q3" value="1" ></td>
+            <td><input type="radio" name="q3" value="2"></td>
+            <td><input type="radio" name="q3" value="3"></td>
+            <td><input type="radio" name="q3" value="4"></td>
+            <td><input type="radio" name="q3" value="5"></td>
+        </tr>
+        <tr>
+            <td>7. I woul imagine that most people would learn to use this system very quickly</td>
+            <td><input type="radio" name="q3" value="1" ></td>
+            <td><input type="radio" name="q3" value="2"></td>
+            <td><input type="radio" name="q3" value="3"></td>
+            <td><input type="radio" name="q3" value="4"></td>
+            <td><input type="radio" name="q3" value="5"></td>
+        </tr>
+        <tr>
+            <td>8. I found the system very cumbersome to use</td>
+            <td><input type="radio" name="q3" value="1" ></td>
+            <td><input type="radio" name="q3" value="2"></td>
+            <td><input type="radio" name="q3" value="3"></td>
+            <td><input type="radio" name="q3" value="4"></td>
+            <td><input type="radio" name="q3" value="5"></td>
+        </tr>
+        <tr>
+            <td>9. I felt very confident using the system</td>
+            <td><input type="radio" name="q3" value="1" ></td>
+            <td><input type="radio" name="q3" value="2"></td>
+            <td><input type="radio" name="q3" value="3"></td>
+            <td><input type="radio" name="q3" value="4"></td>
+            <td><input type="radio" name="q3" value="5"></td>
+        </tr>
+        <tr>
+            <td>10. I needed to learn a lot of things before I could get going with this system</td>
             <td><input type="radio" name="q3" value="1" ></td>
             <td><input type="radio" name="q3" value="2"></td>
             <td><input type="radio" name="q3" value="3"></td>
