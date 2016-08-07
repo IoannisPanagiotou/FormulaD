@@ -16,11 +16,13 @@ include("dbconnect.php");
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
         <script>
         function myFunction() {
-//            document.getElementById('img1').src = 'http://www.xul.fr/images/collar.jpg'
 //            alert("Hello World")
             $("#area1").css("background", "#FFFFFF");
  //           document.getElementById("area1").style.backgroundColor ='yellow';
-            return confirm('Are you sure you want to choose this block?')
+            var r=confirm('Are you sure you want to choose this block?');
+            if (r == false) {
+                header("location: Circuit.php");
+            }
         }
         </script>
 
