@@ -23,12 +23,10 @@ include("dbconnect.php");
 <?php /*if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 */?>
 <form method="post" action="ShowResults.php">
-    <label>Current Gear:</label><br>
-    <input type="number" name="gear" min="1" max="6" step="1" placeholder="Current Gear" required/><br><br>
-    <label>Wear Points:</label><br>
-    <input type="number" name="WP" min="1" max="18" step="1" placeholder="Available Wear Points" required/><br><br>
-    <input type="hidden" name="min" value="<?php echo $_GET["min"]; ?>">
-    <input type="hidden" name="max" value="<?php echo $_GET["max"]; ?>">
+    <label>I think that I would like to use this system frequently:</label>
+    <input type="radio" name="gender" value="male" >
+    <input type="radio" name="gender" value="female"> Female
+    <input type="radio" name="gender" value="other"> Other
     <input type="submit" name="submit" value="Proceed" />
 </form>
 
