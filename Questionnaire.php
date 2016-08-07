@@ -33,7 +33,7 @@ include("dbconnect.php");
             <th>5</th>
         </tr>
         <tr>
-            <td>1. I think that I would like to use this system frequently</td>
+            <td id="q">1. I think that I would like to use this system frequently</td>
             <td><input type="radio" name="q1" value="1" required></td>
             <td><input type="radio" name="q1" value="2"></td>
             <td><input type="radio" name="q1" value="3"></td>
@@ -41,7 +41,7 @@ include("dbconnect.php");
             <td><input type="radio" name="q1" value="5"></td>
         </tr>
         <tr>
-            <td>2. I found the system unnecessarily complex</td>
+            <td id="q">2. I found the system unnecessarily complex</td>
             <td><input type="radio" name="q2" value="1" required></td>
             <td><input type="radio" name="q2" value="2"></td>
             <td><input type="radio" name="q2" value="3"></td>
@@ -49,7 +49,7 @@ include("dbconnect.php");
             <td><input type="radio" name="q2" value="5"></td>
         </tr>
         <tr>
-            <td>3. I thought the system was easy to use</td>
+            <td id="q">3. I thought the system was easy to use</td>
             <td><input type="radio" name="q3" value="1" required></td>
             <td><input type="radio" name="q3" value="2"></td>
             <td><input type="radio" name="q3" value="3"></td>
@@ -57,7 +57,7 @@ include("dbconnect.php");
             <td><input type="radio" name="q3" value="5"></td>
         </tr>
         <tr>
-            <td>4. I think that I would need the support of a technical person to be able to use this system</td>
+            <td id="q">4. I think that I would need the support of a technical person to be able to use this system</td>
             <td><input type="radio" name="q4" value="1" required></td>
             <td><input type="radio" name="q4" value="2"></td>
             <td><input type="radio" name="q4" value="3"></td>
@@ -65,7 +65,7 @@ include("dbconnect.php");
             <td><input type="radio" name="q4" value="5"></td>
         </tr>
         <tr>
-            <td>5. I found the various functions in this system were well integrated</td>
+            <td id="q">5. I found the various functions in this system were well integrated</td>
             <td><input type="radio" name="q5" value="1" required></td>
             <td><input type="radio" name="q5" value="2"></td>
             <td><input type="radio" name="q5" value="3"></td>
@@ -73,7 +73,7 @@ include("dbconnect.php");
             <td><input type="radio" name="q5" value="5"></td>
         </tr>
         <tr>
-            <td>6. I thought there was too much inconsistensy in this system</td>
+            <td id="q">6. I thought there was too much inconsistensy in this system</td>
             <td><input type="radio" name="q6" value="1" required></td>
             <td><input type="radio" name="q6" value="2"></td>
             <td><input type="radio" name="q6" value="3"></td>
@@ -81,7 +81,7 @@ include("dbconnect.php");
             <td><input type="radio" name="q6" value="5"></td>
         </tr>
         <tr>
-            <td>7. I woul imagine that most people would learn to use this system very quickly</td>
+            <td id="q">7. I woul imagine that most people would learn to use this system very quickly</td>
             <td><input type="radio" name="q7" value="1" required></td>
             <td><input type="radio" name="q7" value="2"></td>
             <td><input type="radio" name="q7" value="3"></td>
@@ -89,7 +89,7 @@ include("dbconnect.php");
             <td><input type="radio" name="q7" value="5"></td>
         </tr>
         <tr>
-            <td>8. I found the system very cumbersome to use</td>
+            <td id="q">8. I found the system very cumbersome to use</td>
             <td><input type="radio" name="q8" value="1" required></td>
             <td><input type="radio" name="q8" value="2"></td>
             <td><input type="radio" name="q8" value="3"></td>
@@ -97,7 +97,7 @@ include("dbconnect.php");
             <td><input type="radio" name="q8" value="5"></td>
         </tr>
         <tr>
-            <td>9. I felt very confident using the system</td>
+            <td id="q">9. I felt very confident using the system</td>
             <td><input type="radio" name="q9" value="1" required></td>
             <td><input type="radio" name="q9" value="2"></td>
             <td><input type="radio" name="q9" value="3"></td>
@@ -105,7 +105,7 @@ include("dbconnect.php");
             <td><input type="radio" name="q9" value="5"></td>
         </tr>
         <tr>
-            <td>10. I needed to learn a lot of things before I could get going with this system</td>
+            <td id="q">10. I needed to learn a lot of things before I could get going with this system</td>
             <td><input type="radio" name="q10" value="1" required></td>
             <td><input type="radio" name="q10" value="2"></td>
             <td><input type="radio" name="q10" value="3"></td>

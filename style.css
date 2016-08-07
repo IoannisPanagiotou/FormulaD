@@ -238,13 +238,13 @@ table#t01, th, td {
     border: 1px solid black;
     border-collapse: collapse;
 }
-th {
-    padding: 5px;
-    text-align: center;
-}
-td {
+td#q {
     padding: 5px;
     text-align: left;
+}
+th, td {
+    padding: 5px;
+    text-align: center;
 }
 table#t01 {
     width: 100%;
