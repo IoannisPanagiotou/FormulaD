@@ -55,8 +55,8 @@ include("dbconnect.php");
     <div class="renseignement">
         <i class="fa fa-times"></i>
         <p>Whether you like our app or not, please let us know how well we did! </p>
+        <a href="RateUs.php">Rate Us!</a>
     </div>
-    <a href="RateUs.php">Rate Us!</a>
 
 </div>
 
