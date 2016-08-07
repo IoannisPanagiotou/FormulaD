@@ -14,7 +14,7 @@ include("dbconnect.php");
         content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"
     />
     <script type="text/javascript">
-        var timer = 3; //seconds
+        var timer = 5; //seconds
         website = "http://formulad.azurewebsites.net/Circuit.php"
         function delayer() {
             window.location = website;
