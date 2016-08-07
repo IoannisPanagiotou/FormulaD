@@ -42,26 +42,24 @@ include("dbconnect.php");
             <td><input type="radio" name="q1" value="5"></td>
         </tr>
         <tr>
-            <td>Eve</td>
-            <td>Jackson</td>
-            <td>94</td>
+            <td>2. I found the system unnecessarily complex</td>
+            <td><input type="radio" name="q2" value="1" ></td>
+            <td><input type="radio" name="q2" value="2"></td>
+            <td><input type="radio" name="q2" value="3"></td>
+            <td><input type="radio" name="q2" value="4"></td>
+            <td><input type="radio" name="q2" value="5"></td>
         </tr>
         <tr>
-            <td>John</td>
-            <td>Doe</td>
-            <td>80</td>
+            <td>1. I think that I would like to use this system frequently</td>
+            <td><input type="radio" name="q3" value="1" ></td>
+            <td><input type="radio" name="q3" value="2"></td>
+            <td><input type="radio" name="q3" value="3"></td>
+            <td><input type="radio" name="q3" value="4"></td>
+            <td><input type="radio" name="q3" value="5"></td>
         </tr>
     </table>
-    <label>I think that I would like to use this system frequently:</label>
-    <input type="radio" name="q1" value="1" >
-    <input type="radio" name="q1" value="2">
-    <input type="radio" name="q1" value="3">
-    <input type="radio" name="q1" value="4">
-    <input type="radio" name="q1" value="5"> <br>
-    <label>I found the system unnecessarily complex:</label>
-    <input type="radio" name="gender" value="male" >
-    <input type="radio" name="gender" value="female"> Female
-    <input type="radio" name="gender" value="other"> Other <br>
+
+    <br>
     <input type="submit" name="submit" value="Proceed" />
 </form>
 
