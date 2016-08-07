@@ -251,3 +251,12 @@ table#t01 {
     text-align:center;
     padding-top:20px;
 }
+#id123-thankyou {
+    width: 640px;
+    height: 300px;
+    display: block;
+    background: url(http://goo.gl/3bs2fu) no-repeat;
+    background-position-y: 5px;
+    background-position-x: 170px;
+    text-indent: -99999px;
+}
