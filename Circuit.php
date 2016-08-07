@@ -16,13 +16,9 @@ include("dbconnect.php");
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
         <script>
         function myFunction() {
-//            alert("Hello World")
+            alert("Choice made!")
             $("#area1").css("background", "#FFFFFF");
  //           document.getElementById("area1").style.backgroundColor ='yellow';
-            var r=confirm('Are you sure you want to choose this block?');
-            if (r == false) {
-                header("location: Circuit.php");
-            }
         }
         </script>
 
