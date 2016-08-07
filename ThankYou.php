@@ -17,8 +17,8 @@ include("dbconnect.php");
 <body>
 
 
-<h2 style="text-align:center;padding-top:20px;">
-    Your submissions has been sent successfully!
+<h2 id="thanks">
+    Your feedback has been sent successfully!
 </h2>
 
 <a href="Circuit.php" title="Back to the Home page"><b>HOME</b></a> | <a href="#" title="To the top of this page"><b>BACK TO TOP</b></a>
