@@ -23,12 +23,41 @@ include("dbconnect.php");
 <?php /*if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 */?>
 <form method="post" action="ShowResults.php">
+    <table id="t01">
+        <tr>
+            <th>Question</th>
+            <th>0</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+        </tr>
+        <tr>
+            <td>1. I think that I would like to use this system frequently</td>
+            <td><input type="radio" name="q1" value="1" ></td>
+            <td><input type="radio" name="q1" value="2"></td>
+            <td><input type="radio" name="q1" value="3"></td>
+            <td><input type="radio" name="q1" value="4"></td>
+            <td><input type="radio" name="q1" value="5"></td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>80</td>
+        </tr>
+    </table>
     <label>I think that I would like to use this system frequently:</label>
-    <input type="radio" name="q1" value="1" > 1
-    <input type="radio" name="q1" value="2"> 2
-    <input type="radio" name="q1" value="3"> 3
-    <input type="radio" name="q1" value="4"> 4
-    <input type="radio" name="q1" value="5"> 5<br>
+    <input type="radio" name="q1" value="1" >
+    <input type="radio" name="q1" value="2">
+    <input type="radio" name="q1" value="3">
+    <input type="radio" name="q1" value="4">
+    <input type="radio" name="q1" value="5"> <br>
     <label>I found the system unnecessarily complex:</label>
     <input type="radio" name="gender" value="male" >
     <input type="radio" name="gender" value="female"> Female
