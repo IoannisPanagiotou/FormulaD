@@ -113,9 +113,8 @@ include("dbconnect.php");
             <td><input type="radio" name="q3" value="5"></td>
         </tr>
     </table>
-
     <br>
-    <input type="submit" name="submit" value="Proceed" />
+    <input type="submit" name="submit" value="Submit" />
 </form>
 
 <?
