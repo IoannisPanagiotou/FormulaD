@@ -24,9 +24,15 @@ include("dbconnect.php");
 */?>
 <form method="post" action="ShowResults.php">
     <label>I think that I would like to use this system frequently:</label>
+    <input type="radio" name="q1" value="1" > 1
+    <input type="radio" name="q1" value="2"> 2
+    <input type="radio" name="q1" value="3"> 3
+    <input type="radio" name="q1" value="4"> 4
+    <input type="radio" name="q1" value="5"> 5<br>
+    <label>I found the system unnecessarily complex:</label>
     <input type="radio" name="gender" value="male" >
     <input type="radio" name="gender" value="female"> Female
-    <input type="radio" name="gender" value="other"> Other
+    <input type="radio" name="gender" value="other"> Other <br>
     <input type="submit" name="submit" value="Proceed" />
 </form>
 
