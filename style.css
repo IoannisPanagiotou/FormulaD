@@ -254,6 +254,8 @@ table#t01 {
 #thankyou {
     width: 800px;
     height: 500px;
+    margin-right: auto;
+    margin-left: auto;
     display: block;
     background: url(http://inventionland.com/wp-content/uploads/2015/09/National_Thank_You_Day.png) no-repeat;
     background-position-y: 5px;
