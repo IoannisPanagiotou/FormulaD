@@ -27,7 +27,7 @@ include("dbconnect.php");
 
 <h2 id="thanks">Your feedback has been sent successfully!</h2>
 
-<h4 id="thankyou">Thank you!<h4/>
+<id="thankyou">
 
 <a href="Circuit.php" title="Back to the Home page"><b>HOME</b></a> | <a href="#" title="To the top of this page"><b>BACK TO TOP</b></a>
 
