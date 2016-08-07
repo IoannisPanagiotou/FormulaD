@@ -22,7 +22,7 @@ include("dbconnect.php");
 <br>
 <?php /*if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 */?>
-<form method="post" action="ShowResults.php">
+<form method="post" action="ThankYou.php">
     <table id="t01">
         <tr>
             <th>Question</th>
