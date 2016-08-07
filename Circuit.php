@@ -54,8 +54,7 @@ include("dbconnect.php");
     <h1>Do you like this app? <span>Rate us!</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[X]</h1>
     <div class="renseignement">
         <i class="fa fa-times"></i>
-        <p>Whether you like our app or not, please let us know how well we did! </p>
-        <a href="RateUs.php">Rate Us!</a>
+        <p>Whether you like our app or not, please let us know how well we did! <br> <a href="RateUs.php">Rate Us!</a> </p>
     </div>
 
 </div>
