@@ -56,10 +56,8 @@ include("dbconnect.php");
         <i class="fa fa-times"></i>
         <p>Whether you like our app or not, please let us know how well we did! </p>
     </div>
+    <a href="RateUs.php">Rate Us!</a>
 
-
-
-    </form>
 </div>
 
 <h2>Click on the corresponding block to enter the data</h2>
