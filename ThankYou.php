@@ -36,14 +36,24 @@ $q8 = $_POST["q8"];
 $q9 = $_POST["q9"];
 $q10 = $_POST["q10"];
 
-echo $q1;
-
 $sql = "INSERT INTO userevaluation (Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10) VALUES ('$q1','$q2','$q3','$q4','$q5','$q6','$q7','$q8','$q9','$q10')";
 if (mysqli_query($db, $sql)) {
 } else {
     echo "<br>Error: " . $sql . "<br>" . mysqli_error($db);
 }
-//header("location: ShowResults.php");
+
+?>
+
+<?
+$comment = $_POST["comment"];
+$stars = $_POST["rating-input-1"];
+
+$sql2 = "INSERT INTO rating (comments, stars) VALUES ('$comment','$stars')";
+if (mysqli_query($db, $sql2)) {
+} else {
+    echo "<br>Error: " . $sql2 . "<br>" . mysqli_error($db);
+}
+
 ?>
 
 <h2 id="thanks">Your feedback has been sent successfully!</h2>
