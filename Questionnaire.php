@@ -20,8 +20,7 @@ include("dbconnect.php");
 <h2>Please answer the following questions:</h2>
 <h3><a href="Help.php">Help</a></h3>
 <br>
-<?php /*if ($_SERVER['REQUEST_METHOD'] === 'GET') {
-*/?>
+
 <form method="post" action="ThankYou.php">
     <table id="t01">
         <tr>
