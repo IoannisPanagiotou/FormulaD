@@ -48,7 +48,7 @@ if (mysqli_query($db, $sql)) {
 $comment = $_POST["comment"];
 $stars = $_POST["rating-input-1"];
 
-$sql2 = "INSERT INTO rating (comments, stars) VALUES ('$comment','$stars')";
+$sql2 = "INSERT INTO rating (Comments, Stars) VALUES ('$comment','$stars')";
 if (mysqli_query($db, $sql2)) {
 } else {
     echo "<br>Error: " . $sql2 . "<br>" . mysqli_error($db);
