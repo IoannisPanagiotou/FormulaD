@@ -49,12 +49,13 @@ if ($_POST['q1']){
 $comment = $_POST["comment"];
 $stars = $_POST["rating-input-1"];
 
-$sql2 = "INSERT INTO rating (Comments, Stars) VALUES ('$comment','$stars')";
-if (mysqli_query($db, $sql2)) {
-} else {
-    echo "<br>Error: " . $sql2 . "<br>" . mysqli_error($db);
+if ($_POST['comment']|$_POST['rating-input-1']) {
+    $sql2 = "INSERT INTO rating (Comments, Stars) VALUES ('$comment','$stars')";
+    if (mysqli_query($db, $sql2)) {
+    } else {
+        echo "<br>Error: " . $sql2 . "<br>" . mysqli_error($db);
+    }
 }
-
 ?>
 
 <h2 id="thanks">Your feedback has been sent successfully!</h2>
