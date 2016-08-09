@@ -211,7 +211,7 @@ img map area:hover {
     position: relative;
 }
 .rating-input {
-    float: left;
+    float: right;
     width: 16px;
     height: 16px;
     padding: 0;
