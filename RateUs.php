@@ -34,8 +34,8 @@ include("dbconnect.php");
         <input type="radio" class="rating-input"
                id="rating-input-1-1" name="rating-input-1"/>
         <label for="rating-input-1-1" class="rating-star"></label>
-
-            <textarea rows="4" cols="50" name="comment">Enter your comments here...</textarea>
+        <br>
+            <textarea rows="4" cols="50" name="comment" placeholder="Enter your comments here..."></textarea> <br>
             <input type="submit" name="submit" value="Submit" />
 </span>
 </form>
