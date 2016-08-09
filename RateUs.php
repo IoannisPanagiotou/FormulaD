@@ -5,7 +5,7 @@ include("dbconnect.php");
 <head>
     <meta charset="utf-8">
     <title>Rate Us!</title>
-    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css"/>
     <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="unsemantic-grid-responsive-tablet.css">
     <meta
@@ -17,8 +17,9 @@ include("dbconnect.php");
 <body>
 
 <h2>What is your overall opinion about our web app?</h2>
-Rate us!
+
 <form method="post" action="ThankYou.php">
+    Rate us!
     <span class="rating">
         <input type="radio" class="rating-input"
                id="rating-input-1-5" name="rating-input-1"/>
@@ -36,12 +37,13 @@ Rate us!
                id="rating-input-1-1" name="rating-input-1"/>
         <label for="rating-input-1-1" class="rating-star"></label>
         <br>
-            <textarea rows="4" cols="50" name="comment" placeholder="Enter your comments here..."></textarea> <br>
-            <input type="submit" name="submit" value="Submit" />
+        <textarea rows="4" cols="50" name="comment" placeholder="Enter your comments here..."></textarea> <br>
+        <input type="submit" name="submit" value="Submit"/>
     </span>
 </form>
 
-<a href="Circuit.php" title="Back to the Home page"><b>HOME</b></a> | <a href="#" title="To the top of this page"><b>BACK TO TOP</b></a>
+<a href="Circuit.php" title="Back to the Home page"><b>HOME</b></a> | <a href="#" title="To the top of this page"><b>BACK
+        TO TOP</b></a>
 
 <footer>
     <p>(c) 2016 Yannis Panagiotou</p>
