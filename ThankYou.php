@@ -36,7 +36,7 @@ $q8 = $_POST["q8"];
 $q9 = $_POST["q9"];
 $q10 = $_POST["q10"];
 
-if (isset($_POST['q1'])){
+if ($_POST['q1']){
     $sql = "INSERT INTO userevaluation (Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10) VALUES ('$q1','$q2','$q3','$q4','$q5','$q6','$q7','$q8','$q9','$q10')";
     if (mysqli_query($db, $sql)) {
     } else {
