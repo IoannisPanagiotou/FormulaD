@@ -17,7 +17,7 @@ include("dbconnect.php");
 <body>
 
 <h2>What is your overall opinion about our web app?</h2>
-<form method="post">
+<form method="post" action="ThankYou.php">
         <span class="rating">
         <input type="radio" class="rating-input"
                id="rating-input-1-5" name="rating-input-1"/>
@@ -34,6 +34,9 @@ include("dbconnect.php");
         <input type="radio" class="rating-input"
                id="rating-input-1-1" name="rating-input-1"/>
         <label for="rating-input-1-1" class="rating-star"></label>
+
+            <textarea rows="4" cols="50" name="comment">Enter your comments here...</textarea>
+            <input type="submit" name="submit" value="Submit" />
 </span>
 </form>
 
