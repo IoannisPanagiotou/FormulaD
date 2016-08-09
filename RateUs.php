@@ -35,7 +35,7 @@ include("dbconnect.php");
         <label for="rating-input-1-2" class="rating-star"></label>
         <input type="radio" class="rating-input"
                id="rating-input-1-1" name="rating-input-1"/>
-        <label for="rating-input-1-1" class="rating-star"></label><br>
+        <label for="rating-input-1-1" class="rating-star"></label><br><br>
         <input type="submit" name="submit" value="Submit"/>
     </span>
 </form>
