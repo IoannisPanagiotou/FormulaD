@@ -90,14 +90,14 @@ include("dbconnect.php");
     <area shape="poly"  coords="358,238,355,247,342,240,345,232" alt="" href="DataInput.php?min=9&max=15"/>
     <area shape="poly"  coords="332,226,345,232,342,240,328,233" alt="" href="DataInput.php?min=8&max=14"/>
     <area shape="poly"  coords="318,219,332,225,326,234,314,227" alt="" href="DataInput.php?min=7&max=13"/>
-    <area shape="poly"  coords="303,213,317,219,314,227,299,220" alt="" href="DataInput.php?min=6&max=12"/>
-    <area shape="poly"  coords="291,206,287,215,300,221,305,213" alt="" href="DataInput.php?min=5&max=11"/>
-    <area shape="poly"  coords="277,201,290,207,287,214,274,208" alt="" href="DataInput.php?min=4&max=10"/>
-    <area shape="poly"  coords="263,195,277,200,273,209,259,202" alt="" href="DataInput.php?min=3&max=9"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=6&max=12"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=5&max=11"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=4&max=10"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=3&max=9"/>
     <area shape="poly"  coords="" alt="" href="DataInput.php?min=2&max=6"/>
-    <area shape="poly"  coords="" alt="" href="DataInput.php?min=1&max=3"/>
-    <area shape="poly"  coords="" alt="" href="DataInput.php?min=9&max=15"/>
-    <area shape="poly"  coords="" alt="" href="DataInput.php?min=8&max=14"/>
+    <area shape="poly"  coords="582,285,598,286,599,295,581,294" alt="" href="DataInput.php?min=11&max=15"/>
+    <area shape="poly"  coords="565,283,581,285,581,294,563,291" alt="" href="DataInput.php?min=10&max=14"/>
+    <area shape="poly"  coords="548,281,564,284,563,292,547,288" alt="" href="DataInput.php?min=9&max=13"/>
     <area shape="poly"  coords="533,277,548,280,547,289,531,284" alt="" href="DataInput.php?min=8&max=12"/>
     <area shape="poly"  coords="518,271,533,276,531,285,514,279" alt="" href="DataInput.php?min=7&max=11"/>
     <area shape="poly"  coords="504,265,517,270,515,278,501,273" alt="" href="DataInput.php?min=6&max=10"/>
