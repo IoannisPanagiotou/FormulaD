@@ -47,9 +47,9 @@ img map area:hover {
     height:300px;
     overflow:hidden;
 }
-.fixed {
+/*.fixed {
     position: fixed;
-}
+}*/
 .cc-contactpop {
     background-color:#f18e92;
     color:#fff;
