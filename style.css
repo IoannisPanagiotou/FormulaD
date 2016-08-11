@@ -78,7 +78,7 @@ img map area:hover {
     padding:10px 15px;
 }
 .cc-contactpop i {
-    position:absolute;
+    position:relative;
     top:0px;
     right:0px;
     color: #fff;
