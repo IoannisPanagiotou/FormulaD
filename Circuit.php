@@ -50,19 +50,21 @@ include("dbconnect.php");
 <body>
 
 
-<div class="cc-contactpop fixed">
-    <h1>Do you like this app? <span>Rate us!</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[X]</h1>
-    <div class="renseignement">
-        <i class="fa fa-times"></i>
-        <p>Whether you like our app or not, please let us know how well we did! <br> <a href="RateUs.php">Rate Us!</a> </p>
-    </div>
 
-</div>
-
-<h2>Click on the corresponding block to enter the data</h2>
-<h3><a href="Help.php">Help</a></h3>
 
 <main>
+
+    <div class="cc-contactpop fixed">
+        <h1>Do you like this app? <span>Rate us!</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[X]</h1>
+        <div class="renseignement">
+            <i class="fa fa-times"></i>
+            <p>Whether you like our app or not, please let us know how well we did! <br> <a href="RateUs.php">Rate Us!</a> </p>
+        </div>
+
+    </div>
+
+    <h2>Click on the corresponding block to enter the data</h2>
+    <h3><a href="Help.php">Help</a></h3>
 
 <img id='img1' src="Screen 1.png" width="839" height="531" alt="" usemap="#circuitmap" class="map">
 
