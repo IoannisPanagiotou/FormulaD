@@ -42,6 +42,8 @@ include("dbconnect.php");
                 if ($i == 1) {
                     if ($gear<>6) {
                         for ($j = 1; $j <= 2; $j++) {
+                            $prob[1]=0.3;
+                            $prob[2]=0.7;
                             if ($min<=$j&&$j<=$max){
                                 $corner=1;
                             }
@@ -56,10 +58,10 @@ include("dbconnect.php");
                             $WP = $WPA + $WPO;
                             if ($availWP>$WP) {
                                 if ($WP==0){
-                                    echo "<li><pre><strong>  {$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</strong></pre></li>";
+                                    echo "<li><pre><strong>  {$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob[$i]}</strong></pre></li>";
                                 }
                                 else {
-                                    echo "<li><pre>  {$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob}</pre></li>";
+                                    echo "<li><pre>  {$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob[$i]}</pre></li>";
                                 }
                             }
                             $corner = 0;
