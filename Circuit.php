@@ -55,9 +55,9 @@ include("dbconnect.php");
 <main>
 
     <div class="cc-contactpop fixed">
-        <h1>Do you like this app? <span>Rate us!</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[X]</h1>
+        <h1>Do you like this app? <span>Rate us!</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
         <div class="renseignement">
-            <i class="fa fa-times"></i>
+            <i class="fa fa-times">[X]</i>
             <p>Whether you like our app or not, please let us know how well we did! <br> <a href="RateUs.php">Rate Us!</a> </p>
         </div>
     </div>
