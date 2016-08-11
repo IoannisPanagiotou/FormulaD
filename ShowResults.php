@@ -33,10 +33,10 @@ include("dbconnect.php");
            // $min=$row["minimum"];
             $min=$_POST["min"];
             $max=$_POST["max"];
-            echo $min;
+            /*echo $min;
             echo "<br>";
-            echo $max;
-            echo "<pre>Gear  Number  CornerHit  WPcorner  WPshortshift  TotalWearPoints  Probability</pre>";
+            echo $max;*/
+            echo "<pre>Gear  Number  CornerHit  WPcorner  WPshortshift  TotalWearPoints  ProbabilityForEachDie</pre>";
 
             for ($i=1;$i<=($gear+1);$i++) {
                 if ($i == 1) {
