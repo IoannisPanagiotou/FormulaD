@@ -66,6 +66,7 @@ include("dbconnect.php");
                             }
                             $corner = 0;
                         }
+                        echo "<br>";
                     }
                 }
                 if ($i == 2) {
