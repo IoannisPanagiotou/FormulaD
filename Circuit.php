@@ -65,7 +65,7 @@ include("dbconnect.php");
 
 
 <img id='img1' src="Screen 1.png" width="839" height="531" alt="" usemap="#circuitmap" class="map">
-    <h3><a href="Help.php">Help</a></h3>
+
 <map id='map1' name="circuitmap">
     <area id="area1" shape="poly" onclick="myFunction()" coords="271,177,267,185,282,191,284,184" alt="" href="DataInput.php?min=2&max=8"/>
 <!--          style="outline:none;" target="_self" data-maphilight='{"stroke":false,"fillColor":"cbf68c","fillOpacity":0.6}'-->
@@ -167,7 +167,7 @@ include("dbconnect.php");
 </map>
 
     <a href="#openModal">Please participate in our survey after finishing the play!</a>
-
+    <h3><a href="Help.php">Help</a></h3>
     <div id="openModal" class="modalDialog">
         <div>
             <a href="#close" title="Close" class="close">X</a>
