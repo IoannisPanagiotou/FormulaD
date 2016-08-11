@@ -60,9 +60,7 @@ include("dbconnect.php");
             <i class="fa fa-times"></i>
             <p>Whether you like our app or not, please let us know how well we did! <br> <a href="RateUs.php">Rate Us!</a> </p>
         </div>
-
     </div>
-
     
     <h3><a href="Help.php">Help</a></h3>
 
