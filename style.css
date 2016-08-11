@@ -53,9 +53,9 @@ img map area:hover {
 .cc-contactpop {
     background-color:#f18e92;
     color:#fff;
-    width:350px;
+    width:150px;
     bottom: 0;
-    /*right: 50px;*/
+    right: 50px;
     border-radius: 6px 6px 0px 0px;
 }
 .cc-contactpop h1 {
