@@ -49,7 +49,7 @@ include("dbconnect.php");
 
 <body>
 
-
+<h2>Click on the corresponding block to enter the data</h2>
 
 
 <main>
@@ -63,7 +63,7 @@ include("dbconnect.php");
 
     </div>
 
-    <h2>Click on the corresponding block to enter the data</h2>
+    
     <h3><a href="Help.php">Help</a></h3>
 
 <img id='img1' src="Screen 1.png" width="839" height="531" alt="" usemap="#circuitmap" class="map">
