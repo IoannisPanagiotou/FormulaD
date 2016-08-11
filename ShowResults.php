@@ -234,9 +234,8 @@ include("dbconnect.php");
                     echo "<br>";
                 }
             }
-
             echo "<br>";
-            echo "<li>{$gear} {$corner} {$WP} {$prob} {$max} {$min}</li>";
+            //echo "<li>{$gear} {$corner} {$WP} {$prob} {$max} {$min}</li>";
         }
         ?>
     </ul>
