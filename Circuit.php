@@ -61,8 +61,8 @@ include("dbconnect.php");
             <p>Whether you like our app or not, please let us know how well we did! <br> <a href="RateUs.php">Rate Us!</a> </p>
         </div>
     </div>
-    
 
+    <h3><a href="Help.php">Help</a></h3>
 
 <img id='img1' src="Screen 1.png" width="839" height="531" alt="" usemap="#circuitmap" class="map">
 
@@ -167,7 +167,7 @@ include("dbconnect.php");
 </map>
 
     <a href="#openModal">Please participate in our survey after finishing the play!</a>
-    <h3><a href="Help.php">Help</a></h3>
+    
     <div id="openModal" class="modalDialog">
         <div>
             <a href="#close" title="Close" class="close">X</a>
