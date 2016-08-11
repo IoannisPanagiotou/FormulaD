@@ -239,10 +239,9 @@ include("dbconnect.php");
         }
         ?>
     </ul>
-    <br>
 </content>
 
-<br><br><br>
+<br><br>
 <a href="Circuit.php" title="New Entry"><b>Add a new entry</b></a>
 
 <br><br><br>
