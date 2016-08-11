@@ -96,6 +96,7 @@ include("dbconnect.php");
                         }
                         $corner = 0;
                     }
+                    echo "<br>";
                 }
                 if ($i == 3) {
                     for ($j = 4; $j <= 8; $j++) {
@@ -126,6 +127,7 @@ include("dbconnect.php");
                         }
                         $corner = 0;
                     }
+                    echo "<br>";
                 }
                 if ($i == 4) {
                     for ($j = 7; $j <= 12; $j++) {
@@ -157,6 +159,7 @@ include("dbconnect.php");
                         }
                         $corner = 0;
                     }
+                    echo "<br>";
                 }
                 if ($i == 5) {
                     for ($j = 11; $j <= 20; $j++) {
@@ -192,6 +195,7 @@ include("dbconnect.php");
                         }
                         $corner = 0;
                     }
+                    echo "<br>";
                 }
                 if ($i == 6) {
                     for ($j = 21; $j <= 30; $j++) {
@@ -227,6 +231,7 @@ include("dbconnect.php");
                         }
                         $corner = 0;
                     }
+                    echo "<br>";
                 }
             }
 
