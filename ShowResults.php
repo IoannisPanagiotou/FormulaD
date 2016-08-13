@@ -28,12 +28,6 @@ include("dbconnect.php");
             $gear = $_POST["gear"];
             $availWP = $_POST["WP"];
             $corner=0;
-            $count1=0;
-            $count2=0;
-            $count3=0;
-            $count4=0;
-            $count5=0;
-            $count6=0;
            //$prob=$row["Probability"];
            // $max=$row["maximum"];
            // $min=$row["minimum"];
@@ -46,6 +40,7 @@ include("dbconnect.php");
 
             for ($i=1;$i<=($gear+1);$i++) {
                 if ($i == 1) {
+                    $count1=0;
                     if ($gear<>6) {
                         for ($j = 1; $j <= 2; $j++) {
                             $prob[1]=0.5;
@@ -80,6 +75,7 @@ include("dbconnect.php");
                     }
                 }
                 if ($i == 2) {
+                    $count2=0;
                     for ($j = 2; $j <= 4; $j++) {
                         $prob[2]=0.167;
                         $prob[3]=0.333;
@@ -113,6 +109,7 @@ include("dbconnect.php");
                     echo "<br>";
                 }
                 if ($i == 3) {
+                    $count3=0;
                     for ($j = 4; $j <= 8; $j++) {
                         $prob[4]=0.125;
                         $prob[5]=0.125;
@@ -148,6 +145,7 @@ include("dbconnect.php");
                     echo "<br>";
                 }
                 if ($i == 4) {
+                    $count4=0;
                     for ($j = 7; $j <= 12; $j++) {
                         $prob[7]=0.167;
                         $prob[8]=0.167;
@@ -184,6 +182,7 @@ include("dbconnect.php");
                     echo "<br>";
                 }
                 if ($i == 5) {
+                    $count5=0;
                     for ($j = 11; $j <= 20; $j++) {
                         $prob[11]=0.1;
                         $prob[12]=0.1;
@@ -224,6 +223,7 @@ include("dbconnect.php");
                     echo "<br>";
                 }
                 if ($i == 6) {
+                    $count6=0;
                     for ($j = 21; $j <= 30; $j++) {
                         $prob[$j]=0.33;
                         /*$prob[21]=0.33;
