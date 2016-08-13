@@ -73,7 +73,7 @@ include("dbconnect.php");
                             $corner = 0;
                             $count1++;
                         }
-                        if ($count1<>2){
+                        if ($count1<2){
                             echo "Warning: Player removal!";
                         }
                         echo "<br>";
@@ -107,7 +107,7 @@ include("dbconnect.php");
                         $corner = 0;
                         $count2++;
                     }
-                    if ($count2<>3){
+                    if ($count2<3){
                         echo "Warning: Player removal!";
                     }
                     echo "<br>";
@@ -142,7 +142,7 @@ include("dbconnect.php");
                         $corner = 0;
                         $count3++;
                     }
-                    if ($count3<>5){
+                    if ($count3<5){
                         echo "Warning: Player removal!";
                     }
                     echo "<br>";
@@ -178,7 +178,7 @@ include("dbconnect.php");
                         $corner = 0;
                         $count4++;
                     }
-                    if ($count4<>6){
+                    if ($count4<6){
                         echo "Warning: Player removal!";
                     }
                     echo "<br>";
@@ -218,7 +218,7 @@ include("dbconnect.php");
                         $corner = 0;
                         $count5++;
                     }
-                    if ($count5<>10){
+                    if ($count5<10){
                         echo "Warning: Player removal!";
                     }
                     echo "<br>";
@@ -258,7 +258,7 @@ include("dbconnect.php");
                         $corner = 0;
                         $count6++;
                     }
-                    if ($count6<>10){
+                    if ($count6<10){
                         echo "Warning: Player removal!";
                     }
                     echo "<br>";
