@@ -69,9 +69,9 @@ include("dbconnect.php");
                                 else {
                                     echo "<li><pre>  {$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob[$j]}</pre></li>";
                                 }
+                                $count1++;
                             }
                             $corner = 0;
-                            $count1++;
                         }
                         if ($count1<2){
                             echo "Warning: Player removal!";
@@ -104,9 +104,9 @@ include("dbconnect.php");
                             else {
                                 echo "<li><pre>  {$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob[$j]}</pre></li>";
                             }
+                            $count2++;
                         }
                         $corner = 0;
-                        $count2++;
                     }
                     if ($count2<3){
                         echo "Warning: Player removal!";
@@ -139,9 +139,9 @@ include("dbconnect.php");
                             else {
                                 echo "<li><pre>  {$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob[$j]}</pre></li>";
                             }
+                            $count3++;
                         }
                         $corner = 0;
-                        $count3++;
                     }
                     if ($count3<5){
                         echo "Warning: Player removal!";
@@ -175,9 +175,9 @@ include("dbconnect.php");
                             else {
                                 echo "<li><pre>  {$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob[$j]}</pre></li>";
                             }
+                            $count4++;
                         }
                         $corner = 0;
-                        $count4++;
                     }
                     if ($count4<6){
                         echo "Warning: Player removal!";
@@ -215,9 +215,9 @@ include("dbconnect.php");
                             else {
                                 echo "<li><pre>  {$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob[$j]}</pre></li>";
                             }
+                            $count5++;
                         }
                         $corner = 0;
-                        $count5++;
                     }
                     if ($count5<10){
                         echo "Warning: Player removal!";
@@ -255,9 +255,9 @@ include("dbconnect.php");
                             else {
                                 echo "<li><pre>  {$i}    {$j}    {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob[$j]}</pre></li>";
                             }
+                            $count6++;
                         }
                         $corner = 0;
-                        $count6++;
                     }
                     if ($count6<10){
                         echo "Warning: Player removal!";
