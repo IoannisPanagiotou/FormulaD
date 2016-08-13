@@ -36,7 +36,7 @@ include("dbconnect.php");
             /*echo $min;
             echo "<br>";
             echo $max;*/
-            echo "<pre><strong>Gear  Number  CornerHit  WPcorner  WPshortshift  TotalWearPoints  ProbabilityForEachDie</strong></pre>";
+            echo "<pre><strong>Gear  Number  CornerHit  WPcorner  WPshortshift  TotalWearPoints  ProbabilityOfDieNumber</strong></pre>";
 
             for ($i=1;$i<=($gear+1);$i++) {
                 if ($i == 1) {
