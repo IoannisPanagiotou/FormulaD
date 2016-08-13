@@ -261,7 +261,7 @@ include("dbconnect.php");
                         }
                         $corner = 0;
                     }
-                    if ($count6<10){
+                    if ($count6<10&&$gear==6){
                         echo "Warning: There are numbers on this die that coud lead to car elimination and player removal from the game!";
                     }
                     echo "<br>";
