@@ -147,12 +147,13 @@ include("dbconnect.php");
                 if ($i == 4) {
                     $count4=0;
                     for ($j = 7; $j <= 12; $j++) {
-                        $prob[7]=0.167;
+                        $prob[$j]=0.167;
+                        /*$prob[7]=0.167;
                         $prob[8]=0.167;
                         $prob[9]=0.167;
                         $prob[10]=0.167;
                         $prob[11]=0.167;
-                        $prob[12]=0.167;
+                        $prob[12]=0.167;*/
                         if ($min<=$j&&$j<=$max){
                             $corner=1;
                         }
@@ -184,7 +185,8 @@ include("dbconnect.php");
                 if ($i == 5) {
                     $count5=0;
                     for ($j = 11; $j <= 20; $j++) {
-                        $prob[11]=0.1;
+                        $prob[$j]=0.1;
+                        /*$prob[11]=0.1;
                         $prob[12]=0.1;
                         $prob[13]=0.1;
                         $prob[14]=0.1;
@@ -193,7 +195,7 @@ include("dbconnect.php");
                         $prob[17]=0.1;
                         $prob[18]=0.1;
                         $prob[19]=0.1;
-                        $prob[20]=0.1;
+                        $prob[20]=0.1;*/
                         if ($min<=$j&&$j<=$max){
                             $corner=1;
                         }
