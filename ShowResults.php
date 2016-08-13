@@ -225,7 +225,8 @@ include("dbconnect.php");
                 }
                 if ($i == 6) {
                     for ($j = 21; $j <= 30; $j++) {
-                        $prob[21]=0.33;
+                        $prob[$j]=0.33;
+                        /*$prob[21]=0.33;
                         $prob[22]=0.33;
                         $prob[23]=0.33;
                         $prob[24]=0.33;
@@ -234,7 +235,7 @@ include("dbconnect.php");
                         $prob[27]=0.33;
                         $prob[28]=0.33;
                         $prob[29]=0.33;
-                        $prob[30]=0.33;
+                        $prob[30]=0.33;*/
                         if ($min<=$j&&$j<=$max){
                             $corner=1;
                         }
