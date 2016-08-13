@@ -167,11 +167,21 @@ include("dbconnect.php");
                         }
                         $WP=$WPA+$WPO;
                         if ($availWP>$WP) {
-                            if ($WP==0){
-                                echo "<li><pre><strong>  {$i}     {$j}       {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob[$j]}</strong></pre></li>";
+                            if ($j>9){
+                                if ($WP==0){
+                                    echo "<li><pre><strong>  {$i}     {$j}      {$corner}   {$WPO}   {$WPA}   {$WP}   {$prob[$j]}</strong></pre></li>";
+                                }
+                                else {
+                                    echo "<li><pre>  {$i}     {$j}      {$corner}   {$WPO}   {$WPA}   {$WP}   {$prob[$j]}</pre></li>";
+                                }
                             }
-                            else {
-                                echo "<li><pre>  {$i}     {$j}       {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob[$j]}</pre></li>";
+                            else{
+                                if ($WP==0){
+                                    echo "<li><pre><strong>  {$i}     {$j}       {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob[$j]}</strong></pre></li>";
+                                }
+                                else {
+                                    echo "<li><pre>  {$i}     {$j}       {$corner}    {$WPO}    {$WPA}    {$WP}    {$prob[$j]}</pre></li>";
+                                }
                             }
                             $count4++;
                         }
