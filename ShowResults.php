@@ -77,6 +77,7 @@ include("dbconnect.php");
                             echo "Warning: Player removal!";
                         }
                         echo "<br>";
+                        echo $count1;
                     }
                 }
                 if ($i == 2) {
