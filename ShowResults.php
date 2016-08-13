@@ -157,7 +157,7 @@ include("dbconnect.php");
                     }
                     $WP = $WPA + $WPO;
                     if ($availWP > $WP) {
-                        if ($j > 9) {
+                        if ($j >= 10) {
                             if ($WP == 0 && $corner == 1) {
                                 echo "<li><pre><strong>  {$i}     {$j}       {$corner}          {$WPO}           {$WPA}              {$WP}               {$prob[$j]}</strong></pre></li>";
                             } else {
