@@ -323,7 +323,19 @@ include("dbconnect.php");
     <area shape="poly"  coords="159,227,167,214,175,219,167,229" alt="" href="DataInput.php?min=1&max=12"/>
     <!--    right-->
     <area shape="poly"  coords="156,215,163,203,171,209,163,219" alt="" href="DataInput.php?min=1&max=13"/>
-    
+    <!--  before  9th corner-->
+    <!--left-->
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=3&max=20"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=2&max=16"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=1&max=12"/>
+    <!--    middle-->
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=3&max=20"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=2&max=19"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=1&max=15"/>
+    <!--    right-->
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=3&max=20"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=2&max=19"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=1&max=18"/>
 
 </map>
 
