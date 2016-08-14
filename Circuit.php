@@ -358,7 +358,64 @@ include("dbconnect.php");
     <area shape="poly"  coords="62,471,77,473,76,483,62,481" alt="" href="DataInput.php?min=3&max=8"/>
     <area shape="poly"  coords="48,469,62,471,63,480,46,477" alt="" href="DataInput.php?min=2&max=5"/>
     <area shape="poly"  coords="35,466,47,468,47,478,33,474" alt="" href="DataInput.php?min=1&max=2"/>
-
+    <!--  before  finish line-->
+    <!--right-->
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=18&max=27"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=17&max=26"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=16&max=25"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=15&max=24"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=14&max=23"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=13&max=22"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=12&max=21"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=11&max=20"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=10&max=19"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=9&max=18"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=8&max=17"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=7&max=16"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=6&max=15"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=5&max=14"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=4&max=13"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=3&max=12"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=2&max=11"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=1&max=10"/>
+    <!--middle-->
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=18&max=25"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=17&max=24"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=16&max=23"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=15&max=22"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=14&max=21"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=13&max=20"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=12&max=19"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=11&max=18"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=10&max=17"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=9&max=16"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=8&max=15"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=7&max=14"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=6&max=13"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=5&max=12"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=4&max=11"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=3&max=10"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=2&max=9"/>
+    <area shape="poly"  coords="" alt="" href="DataInput.php?min=1&max=8"/>
+    <!--left-->
+    <area shape="poly"  coords="19,409,28,409,26,422,18,421" alt="" href="DataInput.php?min=23&max=29"/>
+    <area shape="poly"  coords="19,395,29,395,29,409,19,409" alt="" href="DataInput.php?min=22&max=28"/>
+    <area shape="poly"  coords="19,379,29,379,29,395,19,395" alt="" href="DataInput.php?min=21&max=27"/>
+    <area shape="poly"  coords="19,363,29,363,28,378,19,378" alt="" href="DataInput.php?min=20&max=26"/>
+    <area shape="poly"  coords="20,347,29,347,29,363,19,363" alt="" href="DataInput.php?min=19&max=25"/>
+    <area shape="poly"  coords="23,329,31,329,30,346,21,345" alt="" href="DataInput.php?min=18&max=24"/>
+    <area shape="poly"  coords="25,312,34,313,31,328,23,327" alt="" href="DataInput.php?min=17&max=23"/>
+    <area shape="poly"  coords="29,294,37,295,35,313,25,311" alt="" href="DataInput.php?min=16&max=22"/>
+    <area shape="poly"  coords="33,277,41,279,38,295,30,293" alt="" href="DataInput.php?min=15&max=21"/>
+    <area shape="poly"  coords="39,261,47,263,41,279,33,276" alt="" href="DataInput.php?min=14&max=20"/>
+    <area shape="poly"  coords="29,294,34,277,42,279,38,295" alt="" href="DataInput.php?min=13&max=19"/>
+    <area shape="poly"  coords="34,277,38,261,47,263,42,279" alt="" href="DataInput.php?min=12&max=18"/>
+    <area shape="poly"  coords="39,259,45,244,53,246,47,263" alt="" href="DataInput.php?min=11&max=17"/>
+    <area shape="poly"  coords="45,243,52,228,59,231,52,246" alt="" href="DataInput.php?min=10&max=16"/>
+    <area shape="poly"  coords="52,227,58,213,67,216,59,231" alt="" href="DataInput.php?min=9&max=15"/>
+    <area shape="poly"  coords="60,211,67,197,75,200,67,215" alt="" href="DataInput.php?min=8&max=14"/>
+    <area shape="poly"  coords="67,196,75,182,83,185,75,200" alt="" href="DataInput.php?min=7&max=13"/>
+    <area shape="poly"  coords="76,182,85,167,92,173,82,185" alt="" href="DataInput.php?min=6&max=12"/>
 </map>
 
     <a href="#openModal">Please participate in our survey after finishing the play!</a>
