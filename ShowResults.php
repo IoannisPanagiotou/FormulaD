@@ -28,12 +28,11 @@ include("dbconnect.php");
             $min=$_POST["min"];
             $max=$_POST["max"];
             $cor=$_POST["cor"];
-            /*echo $min;
-            echo "<br>";
-            echo $max;*/
+            
             if ($cor==1){
                 echo "Please be aware that your car is inside a corner. Make sure that you make all the necessary stops, otherwise your car could be eliminated!";
             }
+
             echo "<pre><strong>Gear  Number  CornerHit  WPcorner  WPshortshift  TotalWearPoints  ProbabilityOfDieNumber</strong></pre>";
 
             for ($i=1;$i<=($gear+1);$i++) {
