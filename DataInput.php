@@ -26,6 +26,7 @@ include("dbconnect.php");
         <input type="number" name="WP" min="1" max="18" step="1" placeholder="Available Wear Points" required/><br><br>
         <input type="hidden" name="min" value="<?php echo $_GET["min"]; ?>">
         <input type="hidden" name="max" value="<?php echo $_GET["max"]; ?>">
+        <input type="hidden" name="cor" value="<?php echo $_GET["cor"]; ?>">
         <input type="submit" name="submit" value="Proceed" />
     </form>
 
