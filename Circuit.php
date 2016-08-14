@@ -323,8 +323,7 @@ include("dbconnect.php");
     <area shape="poly"  coords="159,227,167,214,175,219,167,229" alt="" href="DataInput.php?min=1&max=12"/>
     <!--    right-->
     <area shape="poly"  coords="156,215,163,203,171,209,163,219" alt="" href="DataInput.php?min=1&max=13"/>
-
-    <!--          onmouseover="myFunction()"-->
+    
 
 </map>
 
