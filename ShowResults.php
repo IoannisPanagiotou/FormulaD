@@ -28,7 +28,7 @@ include("dbconnect.php");
             $min=$_POST["min"];
             $max=$_POST["max"];
             $cor=$_POST["cor"];
-            
+            //message for making necessary stops (5th, 8th, 9th corners>1 stops)
             if ($cor==1){
                 echo "Please be aware that your car is inside a corner. Make sure that you make all the necessary stops, otherwise your car could be eliminated!";
             }
