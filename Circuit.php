@@ -161,7 +161,7 @@ include("dbconnect.php");
     <!--    right-->
     <area shape="poly"  coords="567,105,575,105,576,119,569,120" alt="" href="DataInput.php?min=2&max=5"/>
     <area shape="poly"  coords="566,105,566,89,573,89,575,104" alt="" href="DataInput.php?min=1&max=2"/>
-    <!--   before 4th corner-->
+    <!-- before 4th corner-->
     <!--left-->
     <area shape="poly"  coords="593,38,607,36,609,44,595,45" alt="" href="DataInput.php?min=7&max=12"/>
     <area shape="poly"  coords="607,35,622,33,623,42,609,44" alt="" href="DataInput.php?min=6&max=11"/>
@@ -189,6 +189,19 @@ include("dbconnect.php");
     <area shape="poly"  coords="669,45,683,43,686,51,671,53" alt="" href="DataInput.php?min=3&max=8"/>
     <area shape="poly"  coords="685,43,699,42,701,49,685,51" alt="" href="DataInput.php?min=2&max=5"/>
     <area shape="poly"  coords="700,41,713,40,714,47,700,49" alt="" href="DataInput.php?min=1&max=2"/>
+    <!--  before  5th corner-->
+    <!--left-->
+    <area shape="poly"  coords="735,78,743,81,741,93,732,92" alt="" href="DataInput.php?min=3&max=20"/>
+    <area shape="poly"  coords="732,93,741,93,739,108,730,108" alt="" href="DataInput.php?min=2&max=16"/>
+    <area shape="poly"  coords="731,107,739,109,738,122,729,122" alt="" href="DataInput.php?min=1&max=12"/>
+    <!--    middle-->
+    <area shape="poly"  coords="730,68,737,70,733,85,725,85" alt="" href="DataInput.php?min=3&max=20"/>
+    <area shape="poly"  coords="725,85,733,87,732,101,723,101" alt="" href="DataInput.php?min=2&max=19"/>
+    <area shape="poly"  coords="723,100,731,102,730,115,721,114" alt="" href="DataInput.php?min=1&max=15"/>
+    <!--    right-->
+    <area shape="poly"  coords="723,61,731,63,726,76,717,74" alt="" href="DataInput.php?min=3&max=20"/>
+    <area shape="poly"  coords="718,74,726,76,724,91,715,89" alt="" href="DataInput.php?min=2&max=19"/>
+    <area shape="poly"  coords="715,89,723,90,721,105,713,104" alt="" href="DataInput.php?min=1&max=18"/>
     <!--  before  6th corner-->
     <!--left-->
     <area shape="poly"  coords="804,158,811,146,819,150,812,162" alt="" href="DataInput.php?min=28&max=32"/>
