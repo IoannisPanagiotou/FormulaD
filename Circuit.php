@@ -313,6 +313,16 @@ include("dbconnect.php");
     <area shape="poly"  coords="245,177,260,183,257,190,242,185" alt="" href="DataInput.php?min=1&max=5"/>
 <!--    right-->
 
+    <!-- before  8th corner-->
+    <!--left-->
+    <area shape="poly"  coords="179,213,189,203,195,209,187,219" alt="" href="DataInput.php?min=3&max=15"/>
+    <area shape="poly"  coords="171,225,178,214,187,219,179,229" alt="" href="DataInput.php?min=2&max=13"/>
+    <area shape="poly"  coords="165,237,170,225,178,229,173,240" alt="" href="DataInput.php?min=1&max=11"/>
+    <!--    middle-->
+    <area shape="poly"  coords="167,214,176,205,182,209,175,219" alt="" href="DataInput.php?min=2&max=14"/>
+    <area shape="poly"  coords="159,227,167,214,175,219,167,229" alt="" href="DataInput.php?min=1&max=12"/>
+    <!--    right-->
+    <area shape="poly"  coords="156,215,163,203,171,209,163,219" alt="" href="DataInput.php?min=1&max=13"/>
 
     <!--          onmouseover="myFunction()"-->
 
