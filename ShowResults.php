@@ -133,7 +133,7 @@ include("dbconnect.php");
                         }
                         $corner = 0;
                     }
-                    if ($count3<5){
+                    if ($count3<5&&$count2==3){
                         echo "Warning: There are numbers on this die that coud lead to car elimination and player removal from the game!";
                     }
                     echo "<br>";
