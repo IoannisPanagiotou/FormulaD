@@ -7,6 +7,8 @@ include("dbconnect.php");
     <title>Circuit</title>
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.maphilight.min.js"></script>
     <link rel="stylesheet" href="unsemantic-grid-responsive-tablet.css">
     <meta
         name="viewport"
@@ -21,6 +23,10 @@ include("dbconnect.php");
  //           document.getElementById("area1").style.backgroundColor ='yellow';
         }
         </script>
+
+    <script type="text/javascript">$(function() {
+            $('.map').maphilight();
+        });</script>
 
     <script type="text/javascript">
         $( document ).ready(function() {
