@@ -81,9 +81,7 @@ img map area:hover {
     padding:20px;
     cursor:pointer;
 }
-.cc-contactpop form {
-    padding:0px 15px;
-}
+/*
 .cc-contactpop input {
     font-family: "PT Sans",sans-serif;
     font-size: 0.875em;
@@ -137,7 +135,7 @@ img map area:hover {
 }
 .cc-contactpop button:hover {
     background:#eb6166;
-}
+}*/
 
 /*modal box*/
 
