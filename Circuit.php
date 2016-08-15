@@ -23,10 +23,10 @@ include("dbconnect.php");
         }
         </script>
 
- <script type="text/javascript">$(function() {
+<!-- <script type="text/javascript">$(function() {
             $('#map1').maphilight();
         });</script>
-
+-->
     <script type="text/javascript">
         $( document ).ready(function() {
             // let's Hide Items
