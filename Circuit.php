@@ -19,7 +19,6 @@ include("dbconnect.php");
         <script>
         function myFunction() {
             alert("Watch out! Corner with more than one stops!")
-            $("#area1").css("background", "#FFFFFF");
         }
         </script>
 
@@ -48,7 +47,6 @@ include("dbconnect.php");
             });
         });
     </script>
-    
     
 </head>
 
