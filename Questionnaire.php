@@ -15,8 +15,6 @@ include("dbconnect.php");
 </head>
 <body>
 
-
-
 <h2>Please answer the following questions:</h2>
 <h3><a href="Help.php">Help</a></h3>
 <br>
@@ -115,8 +113,6 @@ include("dbconnect.php");
     <br>
     <input type="submit" name="submit" value="Submit" />
 </form>
-
-
 
 <a href="Circuit.php" title="Back to the Home page"><b>HOME</b></a> | <a href="#" title="To the top of this page"><b>BACK TO TOP</b></a>
 
