@@ -23,9 +23,9 @@ include("dbconnect.php");
         }
         </script>
 
-   <!-- <script type="text/javascript">$(function() {
-            $('.map2').maphilight();
-        });</script>-->
+ <script type="text/javascript">$(function() {
+            $('#img1').maphilight();
+        });</script>
 
     <script type="text/javascript">
         $( document ).ready(function() {
