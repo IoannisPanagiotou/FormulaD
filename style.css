@@ -29,18 +29,7 @@ a {
 footer {
     font-size: 11px;
 }
-/*
-img map area:hover {
-    background-color: yellow;
-    opacity: 0.2;
-    filter: alpha(opacity=20);
-}*/
-/*
-.cc-wraper {
-    background-color: #f2f2f2;
-    height:300px;
-    overflow:hidden;
-}*/
+
 .fixed {
     position: fixed;
 }
