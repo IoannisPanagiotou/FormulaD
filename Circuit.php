@@ -20,13 +20,12 @@ include("dbconnect.php");
         function myFunction() {
             alert("Choice made!")
             $("#area1").css("background", "#FFFFFF");
- //           document.getElementById("area1").style.backgroundColor ='yellow';
         }
         </script>
 
-    <script type="text/javascript">$(function() {
+   <!-- <script type="text/javascript">$(function() {
             $('.map2').maphilight();
-        });</script>
+        });</script>-->
 
     <script type="text/javascript">
         $( document ).ready(function() {
