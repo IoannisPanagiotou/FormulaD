@@ -17,8 +17,7 @@ include("dbconnect.php");
 <h2>Please enter the following details:</h2>
 <h3><a href="Help.php">Help</a></h3>
     <br>
-<?php /*if ($_SERVER['REQUEST_METHOD'] === 'GET') {
-*/?>
+
     <form method="post" action="ShowResults.php">
         <label>Current Gear:</label><br>
         <input type="number" name="gear" min="1" max="6" step="1" placeholder="Current Gear" required/><br><br>
@@ -29,26 +28,6 @@ include("dbconnect.php");
         <input type="hidden" name="cor" value="<?php echo $_GET["cor"]; ?>">
         <input type="submit" name="submit" value="Proceed" />
     </form>
-
-<?
-
-/*}
-elseif($_SERVER['REQUEST_METHOD'] === 'POST'){
-    $gear = $_POST["gear"];
-    $corner;
-    $WP = $_POST["WP"];
-    $prob;
-    $max;
-    $min;
-
-    $sql = "INSERT INTO Results (Gear, Corner, WearPoints, Probability, maximum, minimum) VALUES ('$gear','$corner','$WP','$prob','$max','$min')";
-    if (mysqli_query($db, $sql)) {
-    } else {
-        echo "<br>Error: " . $sql . "<br>" . mysqli_error($db);
-    }
-    header("location: ShowResults.php");
-}
-*/?>
 
 <a href="Circuit.php" title="Back to the Home page"><b>HOME</b></a> | <a href="#" title="To the top of this page"><b>BACK TO TOP</b></a>
 
