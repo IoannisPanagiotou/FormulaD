@@ -25,7 +25,7 @@ include("dbconnect.php");
         </script>
 
     <script type="text/javascript">$(function() {
-            $('.map').maphilight();
+            $('.map2').maphilight();
         });</script>
 
     <script type="text/javascript">
@@ -72,7 +72,7 @@ include("dbconnect.php");
 
 <img id='img1' src="Screen 1.png" width="839" height="531" alt="" usemap="#circuitmap" class="map">
 
-<map id='map1' name="circuitmap">
+<map id='map1' name="circuitmap" class="map2">
     <area id="area1" shape="poly" onclick="myFunction()" coords="271,177,267,185,282,191,284,184" alt="" href="DataInput.php?min=2&max=8"/>
 
     <area class="area" shape="poly" coords="286,183,282,191,295,196,298,190" alt="Block2" href="DataInput.php?min=3&max=9" />
