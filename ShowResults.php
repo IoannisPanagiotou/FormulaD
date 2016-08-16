@@ -207,10 +207,10 @@ include("dbconnect.php");
                         if ($availWP>$WP) {
                             if ($WP>9){
                                 if ($WP==0&&$corner==1){
-                                    echo "<li><pre><strong>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}      {$WP}          {$prob[$j]}</strong></pre></li>";
+                                    echo "<li><pre><strong>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}      {$WP}         {$prob[$j]}</strong></pre></li>";
                                 }
                                 else {
-                                    echo "<li><pre>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}      {$WP}          {$prob[$j]}</pre></li>";
+                                    echo "<li><pre>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}      {$WP}         {$prob[$j]}</pre></li>";
                                 }
                             }
                             else{
@@ -247,11 +247,21 @@ include("dbconnect.php");
                         }
                         $WP=$WPA+$WPO;
                         if ($availWP>$WP) {
-                            if ($WP==0&&$corner==1){
-                                echo "<li><pre><strong>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}       {$WP}          {$prob[$j]}</strong></pre></li>";
+                            if ($WP>9){
+                                if ($WP==0&&$corner==1){
+                                    echo "<li><pre><strong>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}      {$WP}         {$prob[$j]}</strong></pre></li>";
+                                }
+                                else {
+                                    echo "<li><pre>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}      {$WP}         {$prob[$j]}</pre></li>";
+                                }
                             }
-                            else {
-                                echo "<li><pre>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}       {$WP}          {$prob[$j]}</pre></li>";
+                            else{
+                                if ($WP==0&&$corner==1){
+                                    echo "<li><pre><strong>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}       {$WP}          {$prob[$j]}</strong></pre></li>";
+                                }
+                                else {
+                                    echo "<li><pre>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}       {$WP}          {$prob[$j]}</pre></li>";
+                                }
                             }
                             $count6++;
                         }
