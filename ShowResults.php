@@ -254,12 +254,12 @@ include("dbconnect.php");
                 }
             }
             echo "<pre>***Notice***
-Gear: Gear to be used (corresponding die)
+Gear: Gear to be used - corresponding die
 Number: Number on die
 Corner: Corner to be hit (1) or not (0)
 WPcor: Wear Points to be lost for overshooting the corner
 WPsh: Wear points to be lost for shorter shift
-WearPoints: Total Wear Points to be lost (WPc+Wps)
+WearPoints: Total Wear Points to be lost (WPcor+Wpsh)
 Probability: Probability of getting the corresponding number when rolling the die</pre>";
         }
         ?>
