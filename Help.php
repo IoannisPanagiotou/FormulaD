@@ -31,7 +31,7 @@ Choose your current position on the circuit<br>
 Enter your current gear and remaining Wear Points<br>
 <img id='img1' src="Screen 3.png" width="400" height="300" alt="" >
 <br><br>
-Here we go...! Check out the available options!<br>
+Here we go...! Check out the available options! Bold indicates that you hit the corner without losing any Wear Points.<br>
 <img id='img1' src="Screen 4.png" width="400" height="300" alt="" >
 
 <br><br><br>
