@@ -15,7 +15,8 @@ include("dbconnect.php");
 </head>
 <body>
 
-<h2>Please answer the following questions where 1:Strongly Disagree 5:Strongly Agree</h2>
+<h2>Please answer the following questions</h2>
+<h4>1:Strongly Disagree 5:Strongly Agree</h4>
 <h3><a href="Help.php">Help</a></h3>
 <br>
 
