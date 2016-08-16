@@ -227,11 +227,11 @@ include("dbconnect.php");
                         }
                         $corner = 0;
                     }
-                    if ($count5=10){
-                        echo "Motor Damage Warning: If you get a 20, you must roll the black die to find out if you lose one Wear Point or not!";
-                    }
                     if ($count5<10&&$count4==6){
                         echo "Warning: There are numbers on this die that could lead to car elimination and player removal from the game!";
+                    }
+                    if ($count5==10){
+                        echo "Motor Damage Warning: If you get a 20, you must roll the black die to find out if you lose one Wear Point or not!";
                     }
                     echo "<br>";
                 }
@@ -275,8 +275,7 @@ include("dbconnect.php");
                     if ($count6<10&&$count5==10){
                         echo "Warning: There are numbers on this die that could lead to car elimination and player removal from the game!";
                     }
-                    echo "<br>";
-                    if ($count6=10){
+                    if ($count6==10){
                         echo "Motor Damage Warning: If you get a 30, you must roll the black die to find out if you lose one Wear Point or not!";
                     }
                     echo "<br>";
