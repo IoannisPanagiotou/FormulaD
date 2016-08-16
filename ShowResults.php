@@ -238,7 +238,7 @@ include("dbconnect.php");
                 if ($i == 6) {
                     $count6=0;
                     for ($j = 21; $j <= 30; $j++) {
-                        $prob[$j]=0.1;
+                        $prob[$j]=10;
                         if ($min<=$j&&$j<=$max){
                             $corner=1;
                         }
@@ -254,18 +254,18 @@ include("dbconnect.php");
                         if ($availWP>$WP) {
                             if ($WP>9){
                                 if ($WP==0&&$corner==1){
-                                    echo "<li><pre><strong>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}      {$WP}         {round( $prob[$j] * 100 ), '%'}</strong></pre></li>";
+                                    echo "<li><pre><strong>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}      {$WP}         {$prob[$j]}.'<b>%</b>'</strong></pre></li>";
                                 }
                                 else {
-                                    echo "<li><pre>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}      {$WP}         {round( $prob[$j] * 100 ), '%'}</pre></li>";
+                                    echo "<li><pre>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}      {$WP}         {$prob[$j]}.'<b>%</b>'</pre></li>";
                                 }
                             }
                             else{
                                 if ($WP==0&&$corner==1){
-                                    echo "<li><pre><strong>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}       {$WP}          {round( $prob[$j] * 100 ), '%'}</strong></pre></li>";
+                                    echo "<li><pre><strong>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}       {$WP}          {$prob[$j]}.'<b>%</b>'</strong></pre></li>";
                                 }
                                 else {
-                                    echo "<li><pre>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}       {$WP}          {round( $prob[$j] * 100 ), '%'}</pre></li>";
+                                    echo "<li><pre>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}       {$WP}          {$prob[$j]}.'<b>%</b>'</pre></li>";
                                 }
                             }
                             $count6++;
