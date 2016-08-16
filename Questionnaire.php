@@ -22,7 +22,7 @@ include("dbconnect.php");
 <form method="post" action="ThankYou.php">
     <table id="t01">
         <tr>
-            <th></th>
+            
             <th>Diagree</th>
             <th></th>
             <th></th>
