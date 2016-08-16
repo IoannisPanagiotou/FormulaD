@@ -227,6 +227,9 @@ include("dbconnect.php");
                         }
                         $corner = 0;
                     }
+                    if ($count5=10){
+                        echo "Warning: If you get a 20, you must roll the black die to find out if you lose one Wear Point or not!";
+                    }
                     if ($count5<10&&$count4==6){
                         echo "Warning: There are numbers on this die that coud lead to car elimination and player removal from the game!";
                     }
@@ -268,6 +271,9 @@ include("dbconnect.php");
                             $count6++;
                         }
                         $corner = 0;
+                    }
+                    if ($count6=10){
+                        echo "Warning: If you get a 30, you must roll the black die to find out if you lose one Wear Point or not!";
                     }
                     if ($count6<10&&$count5==10){
                         echo "Warning: There are numbers on this die that coud lead to car elimination and player removal from the game!";
