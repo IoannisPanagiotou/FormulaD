@@ -39,8 +39,8 @@ include("dbconnect.php");
                     $count1=0;
                     if ($gear<>6) {
                         for ($j = 1; $j <= 2; $j++) {
-                            $prob[1]=0.5;
-                            $prob[2]=0.5;
+                            $prob[1]=50;
+                            $prob[2]=50;
                             if ($min<=$j&&$j<=$max){
                                 $corner=1;
                             }
@@ -55,10 +55,10 @@ include("dbconnect.php");
                             $WP = $WPA + $WPO;
                             if ($availWP>$WP) {
                                 if ($WP==0&&$corner==1){
-                                    echo "<li><pre><strong>  {$i}     {$j}       {$corner}       {$WPO}     {$WPA}       {$WP}          {$prob[$j]}</strong></pre></li>";
+                                    echo "<li><pre><strong>  {$i}     {$j}       {$corner}       {$WPO}     {$WPA}       {$WP}          {$prob[$j]}%</strong></pre></li>";
                                 }
                                 else {
-                                    echo "<li><pre>  {$i}     {$j}       {$corner}       {$WPO}     {$WPA}       {$WP}          {$prob[$j]}</pre></li>";
+                                    echo "<li><pre>  {$i}     {$j}       {$corner}       {$WPO}     {$WPA}       {$WP}          {$prob[$j]}%</pre></li>";
                                 }
                                 $count1++;
                             }
@@ -73,9 +73,9 @@ include("dbconnect.php");
                 if ($i == 2) {
                     $count2=0;
                     for ($j = 2; $j <= 4; $j++) {
-                        $prob[2]=0.167;
-                        $prob[3]=0.333;
-                        $prob[4]=0.5;
+                        $prob[2]=16.7;
+                        $prob[3]=33.3;
+                        $prob[4]=50;
                         if ($min<=$j&&$j<=$max){
                             $corner=1;
                         }
@@ -90,10 +90,10 @@ include("dbconnect.php");
                         $WP=$WPA+$WPO;
                         if ($availWP>$WP) {
                             if ($WP==0&&$corner==1){
-                                echo "<li><pre><strong>  {$i}     {$j}       {$corner}       {$WPO}     {$WPA}       {$WP}          {$prob[$j]}</strong></pre></li>";
+                                echo "<li><pre><strong>  {$i}     {$j}       {$corner}       {$WPO}     {$WPA}       {$WP}          {$prob[$j]}%</strong></pre></li>";
                             }
                             else {
-                                echo "<li><pre>  {$i}     {$j}       {$corner}       {$WPO}     {$WPA}       {$WP}          {$prob[$j]}</pre></li>";
+                                echo "<li><pre>  {$i}     {$j}       {$corner}       {$WPO}     {$WPA}       {$WP}          {$prob[$j]}%</pre></li>";
                             }
                             $count2++;
                         }
@@ -107,11 +107,11 @@ include("dbconnect.php");
                 if ($i == 3) {
                     $count3=0;
                     for ($j = 4; $j <= 8; $j++) {
-                        $prob[4]=0.125;
-                        $prob[5]=0.125;
-                        $prob[6]=0.25;
-                        $prob[7]=0.25;
-                        $prob[8]=0.25;
+                        $prob[4]=12.5;
+                        $prob[5]=12.5;
+                        $prob[6]=25;
+                        $prob[7]=25;
+                        $prob[8]=25;
                         if ($min<=$j&&$j<=$max){
                             $corner=1;
                         }
@@ -126,10 +126,10 @@ include("dbconnect.php");
                         $WP=$WPA+$WPO;
                         if ($availWP>$WP) {
                             if ($WP==0&&$corner==1){
-                                echo "<li><pre><strong>  {$i}     {$j}       {$corner}       {$WPO}     {$WPA}       {$WP}          {$prob[$j]}</strong></pre></li>";
+                                echo "<li><pre><strong>  {$i}     {$j}       {$corner}       {$WPO}     {$WPA}       {$WP}          {$prob[$j]}%</strong></pre></li>";
                             }
                             else {
-                                echo "<li><pre>  {$i}     {$j}       {$corner}       {$WPO}     {$WPA}       {$WP}          {$prob[$j]}</pre></li>";
+                                echo "<li><pre>  {$i}     {$j}       {$corner}       {$WPO}     {$WPA}       {$WP}          {$prob[$j]}%</pre></li>";
                             }
                             $count3++;
                         }
@@ -143,7 +143,7 @@ include("dbconnect.php");
                 if ($i == 4) {
                     $count4=0;
                     for ($j = 7; $j <= 12; $j++) {
-                        $prob[$j]=0.167;
+                        $prob[$j]=16.667;
                         if ($min<=$j&&$j<=$max){
                             $corner=1;
                         }
@@ -159,26 +159,26 @@ include("dbconnect.php");
                         if ($availWP>$WP) {
                             if ($j>9&&$WP>9){
                                 if ($WP==0&&$corner==1){
-                                    echo "<li><pre><strong>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}      {$WP}         {$prob[$j]}</strong></pre></li>";
+                                    echo "<li><pre><strong>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}      {$WP}         {$prob[$j]}%</strong></pre></li>";
                                 }
                                 else {
-                                    echo "<li><pre>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}       {$WP}         {$prob[$j]}</pre></li>";
+                                    echo "<li><pre>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}       {$WP}         {$prob[$j]}%</pre></li>";
                                 }
                             }
                             elseif ($j>9&&$WP<=9){
                                 if ($WP==0&&$corner==1){
-                                    echo "<li><pre><strong>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}       {$WP}          {$prob[$j]}</strong></pre></li>";
+                                    echo "<li><pre><strong>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}       {$WP}          {$prob[$j]}%</strong></pre></li>";
                                 }
                                 else {
-                                    echo "<li><pre>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}       {$WP}          {$prob[$j]}</pre></li>";
+                                    echo "<li><pre>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}       {$WP}          {$prob[$j]}%</pre></li>";
                                 }
                             }
                             else{
                                 if ($WP==0&&$corner==1){
-                                    echo "<li><pre><strong>  {$i}     {$j}       {$corner}       {$WPO}     {$WPA}       {$WP}          {$prob[$j]}</strong></pre></li>";
+                                    echo "<li><pre><strong>  {$i}     {$j}       {$corner}       {$WPO}     {$WPA}       {$WP}          {$prob[$j]}%</strong></pre></li>";
                                 }
                                 else {
-                                    echo "<li><pre>  {$i}     {$j}       {$corner}       {$WPO}     {$WPA}       {$WP}          {$prob[$j]}</pre></li>";
+                                    echo "<li><pre>  {$i}     {$j}       {$corner}       {$WPO}     {$WPA}       {$WP}          {$prob[$j]}%</pre></li>";
                                 }
                             }
                             $count4++;
@@ -193,7 +193,7 @@ include("dbconnect.php");
                 if ($i == 5) {
                     $count5=0;
                     for ($j = 11; $j <= 20; $j++) {
-                        $prob[$j]=0.1;
+                        $prob[$j]=10;
                         if ($min<=$j&&$j<=$max){
                             $corner=1;
                         }
@@ -209,18 +209,18 @@ include("dbconnect.php");
                         if ($availWP>$WP) {
                             if ($WP>9){
                                 if ($WP==0&&$corner==1){
-                                    echo "<li><pre><strong>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}      {$WP}         {$prob[$j]}</strong></pre></li>";
+                                    echo "<li><pre><strong>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}      {$WP}         {$prob[$j]}%</strong></pre></li>";
                                 }
                                 else {
-                                    echo "<li><pre>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}      {$WP}         {$prob[$j]}</pre></li>";
+                                    echo "<li><pre>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}      {$WP}         {$prob[$j]}%</pre></li>";
                                 }
                             }
                             else{
                                 if ($WP==0&&$corner==1){
-                                    echo "<li><pre><strong>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}       {$WP}          {$prob[$j]}</strong></pre></li>";
+                                    echo "<li><pre><strong>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}       {$WP}          {$prob[$j]}%</strong></pre></li>";
                                 }
                                 else {
-                                    echo "<li><pre>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}       {$WP}          {$prob[$j]}</pre></li>";
+                                    echo "<li><pre>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}       {$WP}          {$prob[$j]}%</pre></li>";
                                 }
                             }
                             $count5++;
