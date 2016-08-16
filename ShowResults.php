@@ -144,12 +144,6 @@ include("dbconnect.php");
                     $count4=0;
                     for ($j = 7; $j <= 12; $j++) {
                         $prob[$j]=0.167;
-                        /*$prob[7]=0.167;
-                        $prob[8]=0.167;
-                        $prob[9]=0.167;
-                        $prob[10]=0.167;
-                        $prob[11]=0.167;
-                        $prob[12]=0.167;*/
                         if ($min<=$j&&$j<=$max){
                             $corner=1;
                         }
@@ -168,7 +162,7 @@ include("dbconnect.php");
                                     echo "<li><pre><strong>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}      {$WP}         {$prob[$j]}</strong></pre></li>";
                                 }
                                 else {
-                                    echo "<li><pre>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}      {$WP}         {$prob[$j]}</pre></li>";
+                                    echo "<li><pre>  {$i}     {$j}      {$corner}       {$WPO}     {$WPA}       {$WP}         {$prob[$j]}</pre></li>";
                                 }
                             }
                             elseif ($j>9&&$WP<=9){
