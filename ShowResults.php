@@ -273,11 +273,12 @@ include("dbconnect.php");
                     echo "<br>";
                 }
             }
-            echo "<pre>*Number: Number on die
-            WPc: Wear Points to be lost for overriding the corner
-            WPs: Wear points to be lost for shorter shift
-            WP: Total Wear Points to be lost (WPc+Wps)
-            Probability: Probability of getting the corresponding number when rolling the die
+            echo "<pre>*Notice
+Number: Number on die
+WPc: Wear Points to be lost for overriding the corner
+WPs: Wear points to be lost for shorter shift
+WP: Total Wear Points to be lost (WPc+Wps)
+Probability: Probability of getting the corresponding number when rolling the die
                         </pre>";
         }
         ?>
