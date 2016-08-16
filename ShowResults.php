@@ -32,7 +32,7 @@ include("dbconnect.php");
                 echo "Please be aware that your car is inside a corner which demands more than one stop! Make sure that you make all the necessary stops, otherwise your car could be eliminated!";
             }
 
-            echo "<pre><strong>Gear  Number  Corner  WPc  WPs  TotalWearPoints  ProbabilityOfDieNumber</strong></pre>";
+            echo "<pre><strong>Gear  Number  Corner  WPc  WPs  WearPoints  ProbabilityOfDieNumber</strong></pre>";
 
             for ($i=1;$i<=($gear+1);$i++) {
                 if ($i == 1) {
@@ -277,7 +277,7 @@ include("dbconnect.php");
 Number: Number on die
 WPc: Wear Points to be lost for overriding the corner
 WPs: Wear points to be lost for shorter shift
-WP: Total Wear Points to be lost (WPc+Wps)
+WearPoints: Total Wear Points to be lost (WPc+Wps)
 Probability: Probability of getting the corresponding number when rolling the die
                         </pre>";
         }
