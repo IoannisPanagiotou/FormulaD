@@ -32,7 +32,7 @@ include("dbconnect.php");
                 echo "Please be aware that your car is inside a corner which demands more than one stop! Make sure that you make all the necessary stops, otherwise your car could be eliminated!";
             }
 
-            echo "<pre><strong>Gear  Number  Corner  WPc    WPs  WearPoints  Probability</strong></pre>";
+            echo "<pre><strong>Gear  Number  Corner  WPcor  WPs  WearPoints  Probability</strong></pre>";
 
             for ($i=1;$i<=($gear+1);$i++) {
                 if ($i == 1) {
