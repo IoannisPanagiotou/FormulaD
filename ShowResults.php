@@ -192,16 +192,6 @@ include("dbconnect.php");
                     $count5=0;
                     for ($j = 11; $j <= 20; $j++) {
                         $prob[$j]=0.1;
-                        /*$prob[11]=0.1;
-                        $prob[12]=0.1;
-                        $prob[13]=0.1;
-                        $prob[14]=0.1;
-                        $prob[15]=0.1;
-                        $prob[16]=0.1;
-                        $prob[17]=0.1;
-                        $prob[18]=0.1;
-                        $prob[19]=0.1;
-                        $prob[20]=0.1;*/
                         if ($min<=$j&&$j<=$max){
                             $corner=1;
                         }
@@ -234,16 +224,6 @@ include("dbconnect.php");
                     $count6=0;
                     for ($j = 21; $j <= 30; $j++) {
                         $prob[$j]=0.33;
-                        /*$prob[21]=0.33;
-                        $prob[22]=0.33;
-                        $prob[23]=0.33;
-                        $prob[24]=0.33;
-                        $prob[25]=0.33;
-                        $prob[26]=0.33;
-                        $prob[27]=0.33;
-                        $prob[28]=0.33;
-                        $prob[29]=0.33;
-                        $prob[30]=0.33;*/
                         if ($min<=$j&&$j<=$max){
                             $corner=1;
                         }
@@ -274,12 +254,13 @@ include("dbconnect.php");
                 }
             }
             echo "<pre>***Notice***
+Gear: Gear to be used (corresponding die)
 Number: Number on die
-WPc: Wear Points to be lost for overriding the corner
-WPs: Wear points to be lost for shorter shift
+Corner: Corner to be hit (1) or not (0)
+WPcor: Wear Points to be lost for overshooting the corner
+WPsh: Wear points to be lost for shorter shift
 WearPoints: Total Wear Points to be lost (WPc+Wps)
-Probability: Probability of getting the corresponding number when rolling the die
-                        </pre>";
+Probability: Probability of getting the corresponding number when rolling the die</pre>";
         }
         ?>
     </ul>
