@@ -15,12 +15,20 @@ include("dbconnect.php");
 </head>
 <body>
 
-<h2>Please answer the following questions (1-Disagree/5-Agree)</h2>
+<h2>Please answer the following questions (1:Disagree 5:Agree)</h2>
 <h3><a href="Help.php">Help</a></h3>
 <br>
 
 <form method="post" action="ThankYou.php">
     <table id="t01">
+        <tr>
+            <th></th>
+            <th>Diagree</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th>Agree</th>
+        </tr>
         <tr>
             <th>Question</th>
             <th>1</th>
