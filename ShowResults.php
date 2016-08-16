@@ -65,7 +65,7 @@ include("dbconnect.php");
                             $corner = 0;
                         }
                         if ($count1<2){
-                            echo "Warning: There are numbers on this die that coud lead to car elimination and player removal from the game!";
+                            echo "Warning: There are numbers on this die that could lead to car elimination and player removal from the game!";
                         }
                         echo "<br>";
                     }
@@ -100,7 +100,7 @@ include("dbconnect.php");
                         $corner = 0;
                     }
                     if ($count2<3&&$count1==2){
-                        echo "Warning: There are numbers on this die that coud lead to car elimination and player removal from the game!";
+                        echo "Warning: There are numbers on this die that could lead to car elimination and player removal from the game!";
                     }
                     echo "<br>";
                 }
@@ -136,7 +136,7 @@ include("dbconnect.php");
                         $corner = 0;
                     }
                     if ($count3<5&&$count2==3){
-                        echo "Warning: There are numbers on this die that coud lead to car elimination and player removal from the game!";
+                        echo "Warning: There are numbers on this die that could lead to car elimination and player removal from the game!";
                     }
                     echo "<br>";
                 }
@@ -186,7 +186,7 @@ include("dbconnect.php");
                         $corner = 0;
                     }
                     if ($count4<6&&$count3==5){
-                        echo "Warning: There are numbers on this die that coud lead to car elimination and player removal from the game!";
+                        echo "Warning: There are numbers on this die that could lead to car elimination and player removal from the game!";
                     }
                     echo "<br>";
                 }
@@ -231,7 +231,7 @@ include("dbconnect.php");
                         echo "Motor Damage Warning: If you get a 20, you must roll the black die to find out if you lose one Wear Point or not!";
                     }
                     if ($count5<10&&$count4==6){
-                        echo "Warning: There are numbers on this die that coud lead to car elimination and player removal from the game!";
+                        echo "Warning: There are numbers on this die that could lead to car elimination and player removal from the game!";
                     }
                     echo "<br>";
                 }
@@ -275,8 +275,8 @@ include("dbconnect.php");
                     if ($count6=10){
                         echo "Motor Damage Warning: If you get a 30, you must roll the black die to find out if you lose one Wear Point or not!";
                     }
-                    if ($count6<10&&$count5==10){
-                        echo "Warning: There are numbers on this die that coud lead to car elimination and player removal from the game!";
+                    elseif ($count6<10&&$count5==10){
+                        echo "Warning: There are numbers on this die that could lead to car elimination and player removal from the game!";
                     }
                     echo "<br>";
                 }
