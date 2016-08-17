@@ -27,6 +27,7 @@ a {
 }
 footer {
     font-size: 11px;
+    clear: both;
     bottom: 0;
     border-radius: 6px 6px 0px 0px;
 }
