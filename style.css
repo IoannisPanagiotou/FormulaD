@@ -27,6 +27,7 @@ a {
 }
 footer {
     font-size: 11px;
+    clear: both;
 }
 
 /*Rating*/
