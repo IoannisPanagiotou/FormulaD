@@ -56,10 +56,10 @@ include("dbconnect.php");
 
     <div class="cc-contactpop fixed">
         <h1>Do you like this app? <span>Rate us!</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
-        <div class="renseignement">
+<!--        <div class="renseignement">-->
             <i>[X]</i>
             <p>Whether you like our app or not, please let us know how well we did! <br> <a href="RateUs.php">Rate Us!</a> </p>
-        </div>
+<!--        </div>-->
     </div>
 
 <img id='img1' src="Screen 1.png" width="839" height="531" alt="" usemap="#circuitmap" class="map">
