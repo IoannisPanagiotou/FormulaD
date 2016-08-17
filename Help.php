@@ -1,11 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: dell user
- * Date: 24/7/2016
- * Time: 23:55
- */
-?>
 <html>
 <head>
     <meta charset="utf-8">
