@@ -29,12 +29,12 @@ include("dbconnect.php");
     <script type="text/javascript">
         $( document ).ready(function() {
             // let's Hide Items
-            $( ".cc-contactpop form").hide();
+            //$( ".cc-contactpop form").hide();
             $( ".cc-contactpop i").hide();
             $( ".cc-contactpop p").hide();
             // Show on elements ".slideDown"
             $( ".cc-contactpop" ).click(function() {
-                $( ".cc-contactpop form").slideDown(500)
+                //$( ".cc-contactpop form").slideDown(500)
                 $( ".cc-contactpop p").slideDown(500)
                 $( ".cc-contactpop i").slideDown(500)
             });
@@ -42,7 +42,7 @@ include("dbconnect.php");
             $( ".cc-contactpop i" ).click(function() {
                 $(this).slideUp(500)
                 $( ".cc-contactpop p").slideUp(500)
-                $( ".cc-contactpop form").slideUp(500)
+                //$( ".cc-contactpop form").slideUp(500)
                 return false
             });
         });
